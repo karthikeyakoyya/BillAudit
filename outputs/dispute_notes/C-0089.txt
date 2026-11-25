@@ -1,0 +1,14 @@
+To: Pinecrest Networks Billing Disputes
+Subject: Dispute C-0089 - circuit CKT-10199 - billed after disconnect
+
+We are disputing 6 invoice line(s) on circuit CKT-10199 for the periods 2025-07 to 2025-12, totalling $3,015.96.
+Invoice lines: L010991, L010992, L010993, L010994, L010995, L010996.
+
+What we found:
+A disconnect order for this circuit took effect on 2025-06-23. Charges continued after that month.
+
+Basis:
+- Sec. 6.2 (disconnect): Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 9 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $3,015.96 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.

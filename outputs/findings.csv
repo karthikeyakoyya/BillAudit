@@ -1,0 +1,1050 @@
+line_id,rule,est_overcharge,detail,vendor_id,circuit_id,period,charge_type,rate_billed,amount,contract_rate,service,true_jurisdiction,billed_jurisdiction,a_state,neca_pct,window_months,claimable,claim_id
+L011349,duplicate,800.49,"Repeats line L000023 (same circuit, period and amount)",V01,CKT-10003,2025-05-01,MRC,800.49,800.49,800.49,MPLS,intrastate,intrastate,FL,0.0,6,False,C-0001
+L000145,spike,641.43,Billed 1441.92 vs circuit median 800.49 over 7 prior months,V01,CKT-10010,2025-08-01,MRC,800.49,1441.92,800.49,MPLS,intrastate,intrastate,AZ,0.0,6,True,C-0002
+L000252,spike,286.44,Billed 601.7 vs circuit median 315.26 over 4 prior months,V01,CKT-10018,2025-05-01,MRC,315.26,601.7,315.26,DS1,intrastate,intrastate,AZ,8.9,6,False,C-0003
+L000349,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-05-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,False,C-0004
+L000351,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-06-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,False,C-0004
+L000353,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-07-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000355,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-08-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000357,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-09-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000359,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-10-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000361,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-11-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000363,rate_mismatch,32.91,Billed rate 348.17 vs contract rate 315.26,V01,CKT-10024,2025-12-01,MRC,348.17,348.17,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0004
+L000413,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-07-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L000415,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-08-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L000417,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-09-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L011356,duplicate,42.07,"Repeats line L000417 (same circuit, period and amount)",V01,CKT-10027,2025-09-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0005
+L000419,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-10-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L000421,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-11-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L000423,rate_mismatch,4.09,Billed rate 42.07 vs contract rate 37.98,V01,CKT-10027,2025-12-01,MRC,42.07,42.07,37.98,VOICE,intrastate,intrastate,AZ,6.22,6,True,C-0006
+L000477,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-03-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0007
+L000479,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-04-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0007
+L000481,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-05-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0007
+L000483,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-06-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0007
+L000485,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-07-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L000487,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-08-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L000489,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-09-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L000491,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-10-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L000493,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-11-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L000495,rate_mismatch,4.74,Billed rate 42.72 vs contract rate 37.98,V01,CKT-10030,2025-12-01,MRC,42.72,42.72,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0007
+L011331,duplicate,800.49,"Repeats line L000562 (same circuit, period and amount)",V01,CKT-10034,2025-06-01,MRC,800.49,800.49,800.49,MPLS,intrastate,intrastate,FL,0.0,6,False,C-0008
+L000688,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-07-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000690,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-08-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000692,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-09-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000694,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-10-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000696,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-11-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000698,rate_mismatch,3.62,Billed rate 41.6 vs contract rate 37.98,V01,CKT-10042,2025-12-01,MRC,41.6,41.6,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0009
+L000853,spike,484.71,Billed 894.38 vs circuit median 409.67 over 6 prior months,V01,CKT-10050,2025-07-01,MRC,409.67,894.38,409.67,PRI,intrastate,intrastate,GA,6.75,6,True,C-0010
+L000995,spike,829.52,Billed 1239.19 vs circuit median 409.67 over 11 prior months,V01,CKT-10056,2025-12-01,MRC,409.67,1239.19,409.67,PRI,intrastate,intrastate,TX,6.79,6,True,C-0011
+L011175,post_disconnect,315.26,Billed for 2025-06 after disconnect effective 2025-05-11,V01,CKT-10066,2025-06-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,4.1,6,False,C-0012
+L011176,post_disconnect,315.26,Billed for 2025-07 after disconnect effective 2025-05-11,V01,CKT-10066,2025-07-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011177,post_disconnect,315.26,Billed for 2025-08 after disconnect effective 2025-05-11,V01,CKT-10066,2025-08-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011178,post_disconnect,315.26,Billed for 2025-09 after disconnect effective 2025-05-11,V01,CKT-10066,2025-09-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011179,post_disconnect,315.26,Billed for 2025-10 after disconnect effective 2025-05-11,V01,CKT-10066,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011180,post_disconnect,315.26,Billed for 2025-11 after disconnect effective 2025-05-11,V01,CKT-10066,2025-11-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011181,post_disconnect,315.26,Billed for 2025-12 after disconnect effective 2025-05-11,V01,CKT-10066,2025-12-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0012
+L011336,duplicate,315.26,"Repeats line L001576 (same circuit, period and amount)",V01,CKT-10087,2025-06-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,MA,8.25,6,False,C-0013
+L011339,duplicate,315.26,"Repeats line L001647 (same circuit, period and amount)",V01,CKT-10092,2025-03-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,AZ,8.9,6,False,C-0014
+L001920,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-07-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L001922,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-08-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L001924,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-09-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L001926,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-10-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L001928,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-11-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L001930,surcharge_misrate,0.5,Surcharge billed at 4.32 percent; tariff for WA VOICE is 3.01 percent,V01,CKT-10105,2025-12-01,SUR,1.64,1.64,37.98,VOICE,intrastate,intrastate,WA,3.01,6,True,C-0015
+L011155,post_disconnect,315.26,Billed for 2025-05 after disconnect effective 2025-04-01,V01,CKT-10110,2025-05-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,False,C-0016
+L011156,post_disconnect,315.26,Billed for 2025-06 after disconnect effective 2025-04-01,V01,CKT-10110,2025-06-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,False,C-0016
+L011157,post_disconnect,315.26,Billed for 2025-07 after disconnect effective 2025-04-01,V01,CKT-10110,2025-07-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011158,post_disconnect,315.26,Billed for 2025-08 after disconnect effective 2025-04-01,V01,CKT-10110,2025-08-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011159,post_disconnect,315.26,Billed for 2025-09 after disconnect effective 2025-04-01,V01,CKT-10110,2025-09-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011160,post_disconnect,315.26,Billed for 2025-10 after disconnect effective 2025-04-01,V01,CKT-10110,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011161,post_disconnect,315.26,Billed for 2025-11 after disconnect effective 2025-04-01,V01,CKT-10110,2025-11-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011162,post_disconnect,315.26,Billed for 2025-12 after disconnect effective 2025-04-01,V01,CKT-10110,2025-12-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,GA,3.85,6,True,C-0016
+L011068,post_disconnect,37.98,Billed for 2025-09 after disconnect effective 2025-08-30,V01,CKT-10132,2025-09-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0017
+L011069,post_disconnect,37.98,Billed for 2025-10 after disconnect effective 2025-08-30,V01,CKT-10132,2025-10-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0017
+L011070,post_disconnect,37.98,Billed for 2025-11 after disconnect effective 2025-08-30,V01,CKT-10132,2025-11-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0017
+L011071,post_disconnect,37.98,Billed for 2025-12 after disconnect effective 2025-08-30,V01,CKT-10132,2025-12-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0017
+L002656,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-03-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,False,C-0018
+L002658,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-04-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,False,C-0018
+L002660,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-05-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,False,C-0018
+L002662,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-06-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,False,C-0018
+L002664,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-07-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L002666,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-08-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L002668,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-09-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L002670,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-10-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L002672,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-11-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L002674,surcharge_misrate,0.81,Surcharge billed at 9.82 percent; tariff for IL VOICE is 7.69 percent,V01,CKT-10148,2025-12-01,SUR,3.73,3.73,37.98,VOICE,intrastate,intrastate,IL,7.69,6,True,C-0018
+L011361,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-06-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,False,C-0019
+L011362,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-07-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L011363,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-08-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L011364,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-09-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L011365,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-10-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L011366,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-11-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L011367,surcharge_misrate,17.2,Surcharge billed at 3.39 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10153,2025-12-01,SUR,17.2,17.2,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0019
+L002767,surcharge_misrate,12.24,Surcharge billed at 5.95 percent; tariff for CA DS1 is 2.66 percent,V01,CKT-10155,2025-06-01,SUR,22.14,22.14,372.01,DS1,interstate,interstate,CA,2.66,6,False,C-0020
+L002769,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-07-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002771,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-08-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002773,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-09-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002775,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-10-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002777,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-11-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002779,surcharge_misrate,12.25,Surcharge billed at 6.85 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10155,2025-12-01,SUR,25.49,25.49,372.01,DS1,interstate,interstate,CA,3.56,6,True,C-0020
+L002816,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-07-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L002818,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-08-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L002820,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-09-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L002822,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-10-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L002824,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-11-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L002826,jurisdiction_misrate,56.75,Billed interstate rate 372.01; circuit is intrastate at 315.26,V01,CKT-10158,2025-12-01,MRC,372.01,372.01,315.26,DS1,intrastate,interstate,WA,4.42,6,True,C-0021
+L003425,spike,60.66,Billed 98.64 vs circuit median 37.98 over 9 prior months,V01,CKT-10189,2025-10-01,MRC,37.98,98.64,37.98,VOICE,intrastate,intrastate,TX,7.76,6,True,C-0022
+L003492,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-07-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L003494,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-08-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L003496,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-09-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L003498,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-10-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L003500,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-11-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L003502,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10192,2025-12-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0023
+L011419,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-04-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,False,C-0024
+L011420,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-05-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,False,C-0024
+L011421,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-06-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,False,C-0024
+L011422,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-07-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011423,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-08-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011424,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-09-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011425,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-10-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011426,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-11-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011427,surcharge_misrate,16.89,Surcharge billed at 3.33 percent; tariff for PA ETH100 is 0.0 percent,V01,CKT-10206,2025-12-01,SUR,16.89,16.89,506.98,ETH100,intrastate,intrastate,PA,0.0,6,True,C-0024
+L011334,duplicate,506.98,"Repeats line L003833 (same circuit, period and amount)",V01,CKT-10210,2025-01-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,FL,0.0,6,False,C-0025
+L011316,duplicate,409.67,"Repeats line L004038 (same circuit, period and amount)",V01,CKT-10220,2025-06-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,TX,7.89,6,False,C-0026
+L011392,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-07-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L011393,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-08-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L011394,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-09-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L011395,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-10-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L011396,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-11-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L011397,surcharge_misrate,16.3,Surcharge billed at 3.22 percent; tariff for MA ETH100 is 0.0 percent,V01,CKT-10221,2025-12-01,SUR,16.3,16.3,506.98,ETH100,intrastate,intrastate,MA,0.0,6,True,C-0027
+L004101,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-05-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,False,C-0029
+L004103,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-06-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,False,C-0029
+L011355,duplicate,327.92,"Repeats line L004103 (same circuit, period and amount)",V01,CKT-10224,2025-06-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,False,C-0028
+L004105,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-07-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L004107,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-08-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L004109,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-09-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L004111,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-10-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L004113,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-11-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L004115,rate_mismatch,12.66,Billed rate 327.92 vs contract rate 315.26,V01,CKT-10224,2025-12-01,MRC,327.92,327.92,315.26,DS1,intrastate,intrastate,IL,4.06,6,True,C-0029
+L011317,duplicate,409.67,"Repeats line L004350 (same circuit, period and amount)",V01,CKT-10239,2025-12-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0030
+L011054,post_disconnect,37.98,Billed for 2025-08 after disconnect effective 2025-07-29,V01,CKT-10249,2025-08-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0031
+L011055,post_disconnect,37.98,Billed for 2025-09 after disconnect effective 2025-07-29,V01,CKT-10249,2025-09-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0031
+L011056,post_disconnect,37.98,Billed for 2025-10 after disconnect effective 2025-07-29,V01,CKT-10249,2025-10-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0031
+L011057,post_disconnect,37.98,Billed for 2025-11 after disconnect effective 2025-07-29,V01,CKT-10249,2025-11-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0031
+L011058,post_disconnect,37.98,Billed for 2025-12 after disconnect effective 2025-07-29,V01,CKT-10249,2025-12-01,MRC,37.98,37.98,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0031
+L004643,surcharge_misrate,6.27,Surcharge billed at 4.65 percent; tariff for CA DS1 is 2.66 percent,V01,CKT-10254,2025-04-01,SUR,14.66,14.66,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0032
+L004645,surcharge_misrate,6.27,Surcharge billed at 4.65 percent; tariff for CA DS1 is 2.66 percent,V01,CKT-10254,2025-05-01,SUR,14.66,14.66,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0032
+L004647,surcharge_misrate,6.27,Surcharge billed at 4.65 percent; tariff for CA DS1 is 2.66 percent,V01,CKT-10254,2025-06-01,SUR,14.66,14.66,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0032
+L004649,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-07-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004651,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-08-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004653,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-09-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004655,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-10-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004657,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-11-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004659,surcharge_misrate,6.28,Surcharge billed at 5.55 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10254,2025-12-01,SUR,17.5,17.5,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0032
+L004742,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-06-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,6.37,6,False,C-0033
+L004744,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-07-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004746,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-08-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004748,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-09-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004750,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-10-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004752,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-11-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004754,rate_mismatch,31.07,Billed rate 514.48 vs contract rate 483.41,V01,CKT-10258,2025-12-01,MRC,514.48,514.48,483.41,PRI,interstate,interstate,FL,4.87,6,True,C-0033
+L004991,rate_mismatch,4.87,Billed rate 42.85 vs contract rate 37.98,V01,CKT-10272,2025-08-01,MRC,42.85,42.85,37.98,VOICE,intrastate,intrastate,OH,8.4,6,True,C-0034
+L004993,rate_mismatch,4.87,Billed rate 42.85 vs contract rate 37.98,V01,CKT-10272,2025-09-01,MRC,42.85,42.85,37.98,VOICE,intrastate,intrastate,OH,8.4,6,True,C-0034
+L004995,rate_mismatch,4.87,Billed rate 42.85 vs contract rate 37.98,V01,CKT-10272,2025-10-01,MRC,42.85,42.85,37.98,VOICE,intrastate,intrastate,OH,8.4,6,True,C-0034
+L004997,rate_mismatch,4.87,Billed rate 42.85 vs contract rate 37.98,V01,CKT-10272,2025-11-01,MRC,42.85,42.85,37.98,VOICE,intrastate,intrastate,OH,8.4,6,True,C-0034
+L004999,rate_mismatch,4.87,Billed rate 42.85 vs contract rate 37.98,V01,CKT-10272,2025-12-01,MRC,42.85,42.85,37.98,VOICE,intrastate,intrastate,OH,8.4,6,True,C-0034
+L011102,post_disconnect,598.24,Billed for 2025-07 after disconnect effective 2025-06-22,V01,CKT-10284,2025-07-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011103,post_disconnect,598.24,Billed for 2025-08 after disconnect effective 2025-06-22,V01,CKT-10284,2025-08-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011104,post_disconnect,598.24,Billed for 2025-09 after disconnect effective 2025-06-22,V01,CKT-10284,2025-09-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011105,post_disconnect,598.24,Billed for 2025-10 after disconnect effective 2025-06-22,V01,CKT-10284,2025-10-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011106,post_disconnect,598.24,Billed for 2025-11 after disconnect effective 2025-06-22,V01,CKT-10284,2025-11-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011107,post_disconnect,598.24,Billed for 2025-12 after disconnect effective 2025-06-22,V01,CKT-10284,2025-12-01,MRC,598.24,598.24,598.24,ETH100,interstate,interstate,FL,0.0,6,True,C-0035
+L011321,duplicate,315.26,"Repeats line L005275 (same circuit, period and amount)",V01,CKT-10289,2025-05-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,False,C-0036
+L011040,post_disconnect,506.98,Billed for 2025-08 after disconnect effective 2025-07-22,V01,CKT-10311,2025-08-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,CA,0.0,6,True,C-0037
+L011041,post_disconnect,506.98,Billed for 2025-09 after disconnect effective 2025-07-22,V01,CKT-10311,2025-09-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,CA,0.0,6,True,C-0037
+L011042,post_disconnect,506.98,Billed for 2025-10 after disconnect effective 2025-07-22,V01,CKT-10311,2025-10-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,CA,0.0,6,True,C-0037
+L011043,post_disconnect,506.98,Billed for 2025-11 after disconnect effective 2025-07-22,V01,CKT-10311,2025-11-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,CA,0.0,6,True,C-0037
+L011044,post_disconnect,506.98,Billed for 2025-12 after disconnect effective 2025-07-22,V01,CKT-10311,2025-12-01,MRC,506.98,506.98,506.98,ETH100,intrastate,intrastate,CA,0.0,6,True,C-0037
+L011328,duplicate,315.26,"Repeats line L006004 (same circuit, period and amount)",V01,CKT-10325,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,AZ,8.9,6,True,C-0038
+L006261,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-02-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,False,C-0039
+L006263,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-03-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,False,C-0039
+L006265,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-04-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,False,C-0039
+L006267,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-05-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,False,C-0039
+L006269,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-06-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,False,C-0039
+L006271,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-07-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L006273,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-08-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L006275,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-09-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L006277,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-10-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L006279,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-11-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L006281,surcharge_misrate,12.49,Surcharge billed at 6.23 percent; tariff for OH PRI is 3.18 percent,V01,CKT-10342,2025-12-01,SUR,25.52,25.52,409.67,PRI,intrastate,intrastate,OH,3.18,6,True,C-0039
+L011147,post_disconnect,315.26,Billed for 2025-08 after disconnect effective 2025-07-23,V01,CKT-10344,2025-08-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0040
+L011148,post_disconnect,315.26,Billed for 2025-09 after disconnect effective 2025-07-23,V01,CKT-10344,2025-09-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0040
+L011149,post_disconnect,315.26,Billed for 2025-10 after disconnect effective 2025-07-23,V01,CKT-10344,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0040
+L011150,post_disconnect,315.26,Billed for 2025-11 after disconnect effective 2025-07-23,V01,CKT-10344,2025-11-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0040
+L011151,post_disconnect,315.26,Billed for 2025-12 after disconnect effective 2025-07-23,V01,CKT-10344,2025-12-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0040
+L006485,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10353,2025-08-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,AZ,0.0,6,True,C-0041
+L006486,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10353,2025-09-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,AZ,0.0,6,True,C-0041
+L006487,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10353,2025-10-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,AZ,0.0,6,True,C-0041
+L006488,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10353,2025-11-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,AZ,0.0,6,True,C-0041
+L006489,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10353,2025-12-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,AZ,0.0,6,True,C-0041
+L006574,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-04-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,False,C-0042
+L006576,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-05-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,False,C-0042
+L006578,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-06-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,False,C-0042
+L006580,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-07-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006582,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-08-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006584,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-09-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006586,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-10-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006588,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-11-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006590,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10359,2025-12-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,MA,2.85,6,True,C-0042
+L006777,spike,555.04,Billed 870.3 vs circuit median 315.26 over 8 prior months,V01,CKT-10369,2025-09-01,MRC,315.26,870.3,315.26,DS1,intrastate,intrastate,NY,3.3,6,True,C-0043
+L011332,duplicate,483.41,"Repeats line L007055 (same circuit, period and amount)",V01,CKT-10384,2025-06-01,MRC,483.41,483.41,483.41,PRI,interstate,interstate,PA,4.81,6,False,C-0044
+L007086,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-06-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,False,C-0045
+L007087,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-07-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007088,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-08-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007089,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-09-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007090,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-10-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007091,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-11-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007092,jurisdiction_misrate,91.26,Billed interstate rate 598.24; circuit is intrastate at 506.98,V01,CKT-10386,2025-12-01,MRC,598.24,598.24,506.98,ETH100,intrastate,interstate,CA,0.0,6,True,C-0045
+L007201,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-07-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L007203,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-08-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L007205,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-09-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L007207,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-10-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L007209,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-11-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L011360,duplicate,42.17,"Repeats line L007209 (same circuit, period and amount)",V01,CKT-10392,2025-11-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0046
+L007211,rate_mismatch,4.19,Billed rate 42.17 vs contract rate 37.98,V01,CKT-10392,2025-12-01,MRC,42.17,42.17,37.98,VOICE,intrastate,intrastate,MA,8.44,6,True,C-0047
+L011129,post_disconnect,372.01,Billed for 2025-04 after disconnect effective 2025-03-22,V01,CKT-10402,2025-04-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,False,C-0048
+L011130,post_disconnect,372.01,Billed for 2025-05 after disconnect effective 2025-03-22,V01,CKT-10402,2025-05-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,False,C-0048
+L011131,post_disconnect,372.01,Billed for 2025-06 after disconnect effective 2025-03-22,V01,CKT-10402,2025-06-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,False,C-0048
+L011132,post_disconnect,372.01,Billed for 2025-07 after disconnect effective 2025-03-22,V01,CKT-10402,2025-07-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L011133,post_disconnect,372.01,Billed for 2025-08 after disconnect effective 2025-03-22,V01,CKT-10402,2025-08-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L011134,post_disconnect,372.01,Billed for 2025-09 after disconnect effective 2025-03-22,V01,CKT-10402,2025-09-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L011135,post_disconnect,372.01,Billed for 2025-10 after disconnect effective 2025-03-22,V01,CKT-10402,2025-10-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L011136,post_disconnect,372.01,Billed for 2025-11 after disconnect effective 2025-03-22,V01,CKT-10402,2025-11-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L011137,post_disconnect,372.01,Billed for 2025-12 after disconnect effective 2025-03-22,V01,CKT-10402,2025-12-01,MRC,372.01,372.01,372.01,DS1,interstate,interstate,AZ,8.9,6,True,C-0048
+L007628,spike,436.14,Billed 751.4 vs circuit median 315.26 over 4 prior months,V01,CKT-10413,2025-05-01,MRC,315.26,751.4,315.26,DS1,intrastate,intrastate,CO,9.09,6,False,C-0049
+L007649,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-03-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0050
+L007651,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-04-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0050
+L007653,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-05-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0050
+L007655,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-06-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0050
+L007657,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-07-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L007659,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-08-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L007661,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-09-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L007663,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-10-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L007665,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-11-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L007667,surcharge_misrate,11.95,Surcharge billed at 11.42 percent; tariff for AZ PRI is 8.5 percent,V01,CKT-10414,2025-12-01,SUR,46.77,46.77,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0050
+L011340,duplicate,800.49,"Repeats line L007695 (same circuit, period and amount)",V01,CKT-10416,2025-04-01,MRC,800.49,800.49,800.49,MPLS,intrastate,intrastate,GA,0.0,6,False,C-0051
+L007816,spike,534.46,Billed 906.47 vs circuit median 372.01 over 10 prior months,V01,CKT-10422,2025-11-01,MRC,372.01,906.47,372.01,DS1,interstate,interstate,NY,3.3,6,True,C-0052
+L007850,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-07-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L007851,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-08-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L007852,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-09-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L011354,duplicate,989.02,"Repeats line L007852 (same circuit, period and amount)",V01,CKT-10425,2025-09-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0053
+L007853,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-10-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L007854,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-11-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L007855,rate_mismatch,44.44,Billed rate 989.02 vs contract rate 944.58,V01,CKT-10425,2025-12-01,MRC,989.02,989.02,944.58,MPLS,interstate,interstate,CA,0.0,6,True,C-0054
+L008220,spike,599.31,Billed 1106.29 vs circuit median 506.98 over 6 prior months,V01,CKT-10446,2025-07-01,MRC,506.98,1106.29,506.98,ETH100,intrastate,intrastate,NY,0.0,6,True,C-0055
+L011138,post_disconnect,409.67,Billed for 2025-07 after disconnect effective 2025-06-15,V01,CKT-10461,2025-07-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L011139,post_disconnect,409.67,Billed for 2025-08 after disconnect effective 2025-06-15,V01,CKT-10461,2025-08-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L011140,post_disconnect,409.67,Billed for 2025-09 after disconnect effective 2025-06-15,V01,CKT-10461,2025-09-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L011141,post_disconnect,409.67,Billed for 2025-10 after disconnect effective 2025-06-15,V01,CKT-10461,2025-10-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L011142,post_disconnect,409.67,Billed for 2025-11 after disconnect effective 2025-06-15,V01,CKT-10461,2025-11-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L011143,post_disconnect,409.67,Billed for 2025-12 after disconnect effective 2025-06-15,V01,CKT-10461,2025-12-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,IL,6.87,6,True,C-0056
+L008641,spike,763.66,Billed 1361.9 vs circuit median 598.24 over 3 prior months,V01,CKT-10470,2025-04-01,MRC,598.24,1361.9,598.24,ETH100,interstate,interstate,WA,0.0,6,False,C-0057
+L008663,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-07-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L008665,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-08-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L008667,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-09-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L008669,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-10-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L008671,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-11-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L008673,surcharge_misrate,6.23,Surcharge billed at 5.54 percent; tariff for CA DS1 is 3.56 percent,V01,CKT-10471,2025-12-01,SUR,17.45,17.45,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0058
+L011086,post_disconnect,315.26,Billed for 2025-04 after disconnect effective 2025-03-06,V01,CKT-10475,2025-04-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0059
+L011087,post_disconnect,315.26,Billed for 2025-05 after disconnect effective 2025-03-06,V01,CKT-10475,2025-05-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0059
+L011088,post_disconnect,315.26,Billed for 2025-06 after disconnect effective 2025-03-06,V01,CKT-10475,2025-06-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,2.66,6,False,C-0059
+L011089,post_disconnect,315.26,Billed for 2025-07 after disconnect effective 2025-03-06,V01,CKT-10475,2025-07-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011090,post_disconnect,315.26,Billed for 2025-08 after disconnect effective 2025-03-06,V01,CKT-10475,2025-08-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011091,post_disconnect,315.26,Billed for 2025-09 after disconnect effective 2025-03-06,V01,CKT-10475,2025-09-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011092,post_disconnect,315.26,Billed for 2025-10 after disconnect effective 2025-03-06,V01,CKT-10475,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011093,post_disconnect,315.26,Billed for 2025-11 after disconnect effective 2025-03-06,V01,CKT-10475,2025-11-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011094,post_disconnect,315.26,Billed for 2025-12 after disconnect effective 2025-03-06,V01,CKT-10475,2025-12-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CA,3.56,6,True,C-0059
+L011330,duplicate,483.41,"Repeats line L008793 (same circuit, period and amount)",V01,CKT-10479,2025-07-01,MRC,483.41,483.41,483.41,PRI,interstate,interstate,AZ,8.5,6,True,C-0060
+L011182,post_disconnect,315.26,Billed for 2025-10 after disconnect effective 2025-09-19,V01,CKT-10480,2025-10-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CO,9.09,6,True,C-0061
+L011183,post_disconnect,315.26,Billed for 2025-11 after disconnect effective 2025-09-19,V01,CKT-10480,2025-11-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CO,9.09,6,True,C-0061
+L011184,post_disconnect,315.26,Billed for 2025-12 after disconnect effective 2025-09-19,V01,CKT-10480,2025-12-01,MRC,315.26,315.26,315.26,DS1,intrastate,intrastate,CO,9.09,6,True,C-0061
+L008999,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10490,2025-08-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,WA,3.01,6,True,C-0062
+L009001,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10490,2025-09-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,WA,3.01,6,True,C-0062
+L009003,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10490,2025-10-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,WA,3.01,6,True,C-0062
+L009005,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10490,2025-11-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,WA,3.01,6,True,C-0062
+L009007,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10490,2025-12-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,WA,3.01,6,True,C-0062
+L011398,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-03-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,False,C-0063
+L011399,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-04-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,False,C-0063
+L011400,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-05-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,False,C-0063
+L011401,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-06-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,False,C-0063
+L011402,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-07-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L011403,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-08-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L011404,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-09-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L011405,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-10-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L011406,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-11-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L011407,surcharge_misrate,40.9,Surcharge billed at 4.33 percent; tariff for PA MPLS is 0.0 percent,V01,CKT-10510,2025-12-01,SUR,40.9,40.9,944.58,MPLS,interstate,interstate,PA,0.0,6,True,C-0063
+L009536,spike,28.18,Billed 66.16 vs circuit median 37.98 over 10 prior months,V01,CKT-10520,2025-11-01,MRC,37.98,66.16,37.98,VOICE,intrastate,intrastate,NY,4.15,6,True,C-0064
+L009581,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-03-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,False,C-0065
+L009583,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-04-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,False,C-0065
+L009585,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-05-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,False,C-0065
+L009587,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-06-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,False,C-0065
+L009589,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-07-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009591,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-08-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009593,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-09-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009595,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-10-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009597,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-11-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009599,surcharge_misrate,10.43,Surcharge billed at 7.73 percent; tariff for WA DS1 is 4.42 percent,V01,CKT-10523,2025-12-01,SUR,24.36,24.36,315.26,DS1,intrastate,intrastate,WA,4.42,6,True,C-0065
+L009757,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-07-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009759,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-08-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009761,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-09-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009763,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-10-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009765,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-11-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009767,surcharge_misrate,4.09,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V01,CKT-10532,2025-12-01,SUR,34.3,34.3,372.01,DS1,interstate,interstate,TX,8.12,6,True,C-0066
+L009779,spike,464.55,Billed 971.53 vs circuit median 506.98 over 11 prior months,V01,CKT-10533,2025-12-01,MRC,506.98,971.53,506.98,ETH100,intrastate,intrastate,IL,0.0,6,True,C-0067
+L009810,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-04-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,False,C-0068
+L009812,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-05-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,False,C-0068
+L009814,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-06-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,False,C-0068
+L009816,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-07-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L009818,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-08-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L009820,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-09-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L009822,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-10-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L009824,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-11-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L009826,jurisdiction_misrate,6.84,Billed interstate rate 44.82; circuit is intrastate at 37.98,V01,CKT-10535,2025-12-01,MRC,44.82,44.82,37.98,VOICE,intrastate,interstate,AZ,6.22,6,True,C-0068
+L010997,post_disconnect,409.67,Billed for 2025-03 after disconnect effective 2025-02-14,V01,CKT-10537,2025-03-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0069
+L010998,post_disconnect,409.67,Billed for 2025-04 after disconnect effective 2025-02-14,V01,CKT-10537,2025-04-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0069
+L010999,post_disconnect,409.67,Billed for 2025-05 after disconnect effective 2025-02-14,V01,CKT-10537,2025-05-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0069
+L011000,post_disconnect,409.67,Billed for 2025-06 after disconnect effective 2025-02-14,V01,CKT-10537,2025-06-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,False,C-0069
+L011001,post_disconnect,409.67,Billed for 2025-07 after disconnect effective 2025-02-14,V01,CKT-10537,2025-07-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011002,post_disconnect,409.67,Billed for 2025-08 after disconnect effective 2025-02-14,V01,CKT-10537,2025-08-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011003,post_disconnect,409.67,Billed for 2025-09 after disconnect effective 2025-02-14,V01,CKT-10537,2025-09-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011004,post_disconnect,409.67,Billed for 2025-10 after disconnect effective 2025-02-14,V01,CKT-10537,2025-10-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011005,post_disconnect,409.67,Billed for 2025-11 after disconnect effective 2025-02-14,V01,CKT-10537,2025-11-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011006,post_disconnect,409.67,Billed for 2025-12 after disconnect effective 2025-02-14,V01,CKT-10537,2025-12-01,MRC,409.67,409.67,409.67,PRI,intrastate,intrastate,AZ,8.5,6,True,C-0069
+L011368,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-04-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,False,C-0070
+L011369,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-05-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,False,C-0070
+L011370,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-06-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,False,C-0070
+L011371,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-07-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L011372,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-08-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L011373,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-09-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L011374,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-10-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L011375,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-11-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L011376,surcharge_misrate,18.39,Surcharge billed at 3.63 percent; tariff for CO ETH100 is 0.0 percent,V01,CKT-10539,2025-12-01,SUR,18.39,18.39,506.98,ETH100,intrastate,intrastate,CO,0.0,6,True,C-0070
+L010011,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-03-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0071
+L010013,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-04-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0071
+L010015,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-05-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0071
+L010017,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-06-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,False,C-0071
+L010019,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-07-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010021,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-08-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010023,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-09-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010025,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-10-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010027,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-11-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010029,surcharge_misrate,0.99,Surcharge billed at 10.03 percent; tariff for CO VOICE is 7.42 percent,V01,CKT-10548,2025-12-01,SUR,3.81,3.81,37.98,VOICE,intrastate,intrastate,CO,7.42,6,True,C-0071
+L010139,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-06-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,False,C-0072
+L010141,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-07-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010143,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-08-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010145,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-09-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010147,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-10-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010149,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-11-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010151,jurisdiction_misrate,73.74,Billed interstate rate 483.41; circuit is intrastate at 409.67,V01,CKT-10555,2025-12-01,MRC,483.41,483.41,409.67,PRI,intrastate,interstate,PA,4.81,6,True,C-0072
+L010642,spike,706.34,Billed 1116.01 vs circuit median 409.67 over 10 prior months,V01,CKT-10583,2025-11-01,MRC,409.67,1116.01,409.67,PRI,intrastate,intrastate,MA,2.85,6,True,C-0073
+L010910,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-04-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,False,C-0074
+L010911,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-05-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,False,C-0074
+L010912,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-06-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,False,C-0074
+L010913,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-07-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L010914,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-08-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L010915,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-09-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L010916,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-10-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L010917,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-11-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L010918,rate_mismatch,24.29,Billed rate 531.27 vs contract rate 506.98,V01,CKT-10597,2025-12-01,MRC,531.27,531.27,506.98,ETH100,intrastate,intrastate,TX,0.0,6,True,C-0074
+L011231,unknown_circuit,37.98,Circuit CKT-90006 is billed but not in the service inventory,V01,CKT-90006,2025-08-01,MRC,37.98,37.98,,,,intrastate,,,6,True,C-0075
+L011232,unknown_circuit,37.98,Circuit CKT-90006 is billed but not in the service inventory,V01,CKT-90006,2025-09-01,MRC,37.98,37.98,,,,intrastate,,,6,True,C-0075
+L011233,unknown_circuit,37.98,Circuit CKT-90006 is billed but not in the service inventory,V01,CKT-90006,2025-10-01,MRC,37.98,37.98,,,,intrastate,,,6,True,C-0075
+L011234,unknown_circuit,37.98,Circuit CKT-90006 is billed but not in the service inventory,V01,CKT-90006,2025-11-01,MRC,37.98,37.98,,,,intrastate,,,6,True,C-0075
+L011235,unknown_circuit,37.98,Circuit CKT-90006 is billed but not in the service inventory,V01,CKT-90006,2025-12-01,MRC,37.98,37.98,,,,intrastate,,,6,True,C-0075
+L011291,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-06-01,MRC,409.67,409.67,,,,intrastate,,,6,False,C-0076
+L011292,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-07-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011293,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-08-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011294,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-09-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011295,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-10-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011296,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-11-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011297,unknown_circuit,409.67,Circuit CKT-90013 is billed but not in the service inventory,V01,CKT-90013,2025-12-01,MRC,409.67,409.67,,,,intrastate,,,6,True,C-0076
+L011347,duplicate,488.02,"Repeats line L000367 (same circuit, period and amount)",V02,CKT-10025,2025-03-01,MRC,488.02,488.02,488.02,ETH100,intrastate,intrastate,CO,0.0,9,False,C-0077
+L000389,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-07-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000391,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-08-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000393,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-09-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000395,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-10-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000397,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-11-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000399,rate_mismatch,29.91,Billed rate 421.32 vs contract rate 391.41,V02,CKT-10026,2025-12-01,MRC,421.32,421.32,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0078
+L000959,spike,33.84,Billed 69.2 vs circuit median 35.36 over 5 prior months,V02,CKT-10055,2025-06-01,MRC,35.36,69.2,35.36,VOICE,intrastate,intrastate,TX,8.86,9,True,C-0079
+L001248,rate_mismatch,32.8,Billed rate 481.21 vs contract rate 448.41,V02,CKT-10069,2025-05-01,MRC,481.21,481.21,448.41,PRI,interstate,interstate,CA,3.25,9,True,C-0080
+L001250,rate_mismatch,32.8,Billed rate 481.21 vs contract rate 448.41,V02,CKT-10069,2025-06-01,MRC,481.21,481.21,448.41,PRI,interstate,interstate,CA,3.25,9,True,C-0080
+L001252,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-07-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L001254,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-08-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L001256,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-09-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L001258,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-10-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L001260,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-11-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L001262,rate_mismatch,33.78,Billed rate 495.64 vs contract rate 461.86,V02,CKT-10069,2025-12-01,MRC,495.64,495.64,461.86,PRI,interstate,interstate,CA,4.15,9,True,C-0080
+L002168,rate_mismatch,16.13,Billed rate 396.14 vs contract rate 380.01,V02,CKT-10120,2025-06-01,MRC,396.14,396.14,380.01,PRI,intrastate,intrastate,TX,7.89,9,True,C-0082
+L002170,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-07-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L002172,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-08-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L002174,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-09-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L011359,duplicate,408.02,"Repeats line L002174 (same circuit, period and amount)",V02,CKT-10120,2025-09-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0081
+L002176,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-10-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L002178,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-11-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L002180,rate_mismatch,16.61,Billed rate 408.02 vs contract rate 391.41,V02,CKT-10120,2025-12-01,MRC,408.02,408.02,391.41,PRI,intrastate,intrastate,TX,6.79,9,True,C-0082
+L002409,rate_mismatch,4.87,Billed rate 40.23 vs contract rate 35.36,V02,CKT-10135,2025-04-01,MRC,40.23,40.23,35.36,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002411,rate_mismatch,4.87,Billed rate 40.23 vs contract rate 35.36,V02,CKT-10135,2025-05-01,MRC,40.23,40.23,35.36,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002413,rate_mismatch,4.87,Billed rate 40.23 vs contract rate 35.36,V02,CKT-10135,2025-06-01,MRC,40.23,40.23,35.36,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002415,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-07-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002417,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-08-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002419,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-09-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002421,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-10-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002423,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-11-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002425,rate_mismatch,5.02,Billed rate 41.44 vs contract rate 36.42,V02,CKT-10135,2025-12-01,MRC,41.44,41.44,36.42,VOICE,intrastate,intrastate,PA,3.69,9,True,C-0083
+L002509,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10140,2025-03-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,PA,0.0,9,False,C-0084
+L002510,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10140,2025-04-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002511,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10140,2025-05-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002512,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10140,2025-06-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002513,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-07-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002514,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-08-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002515,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-09-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002516,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-10-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002517,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-11-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L002518,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10140,2025-12-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,PA,0.0,9,True,C-0084
+L003027,spike,77.53,Billed 112.89 vs circuit median 35.36 over 3 prior months,V02,CKT-10169,2025-04-01,MRC,35.36,112.89,35.36,VOICE,intrastate,intrastate,GA,7.86,9,True,C-0085
+L003082,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-07-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003084,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-08-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003086,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-09-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003088,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-10-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003090,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-11-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003092,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10171,2025-12-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0086
+L003266,rate_mismatch,4.14,Billed rate 39.5 vs contract rate 35.36,V02,CKT-10181,2025-04-01,MRC,39.5,39.5,35.36,VOICE,intrastate,intrastate,CA,7.03,9,True,C-0088
+L003268,rate_mismatch,4.14,Billed rate 39.5 vs contract rate 35.36,V02,CKT-10181,2025-05-01,MRC,39.5,39.5,35.36,VOICE,intrastate,intrastate,CA,7.03,9,True,C-0088
+L011358,duplicate,39.5,"Repeats line L003268 (same circuit, period and amount)",V02,CKT-10181,2025-05-01,MRC,39.5,39.5,35.36,VOICE,intrastate,intrastate,CA,7.03,9,True,C-0087
+L003270,rate_mismatch,4.14,Billed rate 39.5 vs contract rate 35.36,V02,CKT-10181,2025-06-01,MRC,39.5,39.5,35.36,VOICE,intrastate,intrastate,CA,7.03,9,True,C-0088
+L003272,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-07-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L003274,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-08-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L003276,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-09-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L003278,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-10-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L003280,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-11-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L003282,rate_mismatch,4.26,Billed rate 40.68 vs contract rate 36.42,V02,CKT-10181,2025-12-01,MRC,40.68,40.68,36.42,VOICE,intrastate,intrastate,CA,7.93,9,True,C-0088
+L010991,post_disconnect,502.66,Billed for 2025-07 after disconnect effective 2025-06-23,V02,CKT-10199,2025-07-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L010992,post_disconnect,502.66,Billed for 2025-08 after disconnect effective 2025-06-23,V02,CKT-10199,2025-08-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L010993,post_disconnect,502.66,Billed for 2025-09 after disconnect effective 2025-06-23,V02,CKT-10199,2025-09-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L010994,post_disconnect,502.66,Billed for 2025-10 after disconnect effective 2025-06-23,V02,CKT-10199,2025-10-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L010995,post_disconnect,502.66,Billed for 2025-11 after disconnect effective 2025-06-23,V02,CKT-10199,2025-11-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L010996,post_disconnect,502.66,Billed for 2025-12 after disconnect effective 2025-06-23,V02,CKT-10199,2025-12-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,WA,0.0,9,True,C-0089
+L003921,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10215,2025-02-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,OH,0.0,9,False,C-0090
+L003922,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10215,2025-03-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,OH,0.0,9,False,C-0090
+L003923,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10215,2025-04-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003924,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10215,2025-05-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003925,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10215,2025-06-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003926,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-07-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003927,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-08-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003928,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-09-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003929,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-10-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003930,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-11-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L003931,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10215,2025-12-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,OH,0.0,9,True,C-0090
+L004197,jurisdiction_misrate,68.4,Billed interstate rate 448.41; circuit is intrastate at 380.01,V02,CKT-10231,2025-06-01,MRC,448.41,448.41,380.01,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004199,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-07-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004201,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-08-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004203,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-09-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004205,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-10-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004207,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-11-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004209,jurisdiction_misrate,70.45,Billed interstate rate 461.86; circuit is intrastate at 391.41,V02,CKT-10231,2025-12-01,MRC,461.86,461.86,391.41,PRI,intrastate,interstate,CO,8.28,9,True,C-0091
+L004269,spike,1626.35,Billed 2360.46 vs circuit median 734.11 over 10 prior months,V02,CKT-10234,2025-11-01,MRC,756.13,2360.46,756.13,MPLS,intrastate,intrastate,GA,0.0,9,True,C-0092
+L004274,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10235,2025-04-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004275,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10235,2025-05-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004276,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10235,2025-06-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004277,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-07-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004278,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-08-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004279,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-09-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004280,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-10-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004281,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-11-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L004282,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10235,2025-12-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,FL,0.0,9,True,C-0093
+L011314,duplicate,892.24,"Repeats line L004326 (same circuit, period and amount)",V02,CKT-10238,2025-11-01,MRC,892.24,892.24,892.24,MPLS,interstate,interstate,TX,0.0,9,True,C-0094
+L005541,spike,50.38,Billed 85.74 vs circuit median 35.36 over 9 prior months,V02,CKT-10301,2025-10-01,MRC,36.42,85.74,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0095
+L011172,post_disconnect,36.42,Billed for 2025-10 after disconnect effective 2025-09-09,V02,CKT-10302,2025-10-01,MRC,36.42,36.42,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0096
+L011173,post_disconnect,36.42,Billed for 2025-11 after disconnect effective 2025-09-09,V02,CKT-10302,2025-11-01,MRC,36.42,36.42,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0096
+L011174,post_disconnect,36.42,Billed for 2025-12 after disconnect effective 2025-09-09,V02,CKT-10302,2025-12-01,MRC,36.42,36.42,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0096
+L011324,duplicate,292.65,"Repeats line L005605 (same circuit, period and amount)",V02,CKT-10305,2025-04-01,MRC,292.65,292.65,292.65,DS1,intrastate,intrastate,WA,4.42,9,True,C-0097
+L005865,rate_mismatch,79.13,Billed rate 813.24 vs contract rate 734.11,V02,CKT-10319,2025-05-01,MRC,813.24,813.24,734.11,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005866,rate_mismatch,79.13,Billed rate 813.24 vs contract rate 734.11,V02,CKT-10319,2025-06-01,MRC,813.24,813.24,734.11,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005867,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-07-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005868,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-08-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005869,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-09-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005870,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-10-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005871,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-11-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L005872,rate_mismatch,81.5,Billed rate 837.63 vs contract rate 756.13,V02,CKT-10319,2025-12-01,MRC,837.63,837.63,756.13,MPLS,intrastate,intrastate,TX,0.0,9,True,C-0098
+L006176,spike,428.23,Billed 720.88 vs circuit median 292.65 over 4 prior months,V02,CKT-10337,2025-05-01,MRC,292.65,720.88,292.65,DS1,intrastate,intrastate,IL,4.06,9,True,C-0099
+L006223,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-07-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L006225,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-08-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L006227,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-09-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L006229,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-10-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L006231,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-11-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L006233,surcharge_misrate,5.33,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10340,2025-12-01,SUR,20.27,20.27,355.69,DS1,interstate,interstate,FL,4.2,9,True,C-0100
+L011125,post_disconnect,391.41,Billed for 2025-09 after disconnect effective 2025-08-21,V02,CKT-10343,2025-09-01,MRC,391.41,391.41,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0101
+L011126,post_disconnect,391.41,Billed for 2025-10 after disconnect effective 2025-08-21,V02,CKT-10343,2025-10-01,MRC,391.41,391.41,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0101
+L011127,post_disconnect,391.41,Billed for 2025-11 after disconnect effective 2025-08-21,V02,CKT-10343,2025-11-01,MRC,391.41,391.41,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0101
+L011128,post_disconnect,391.41,Billed for 2025-12 after disconnect effective 2025-08-21,V02,CKT-10343,2025-12-01,MRC,391.41,391.41,391.41,PRI,intrastate,intrastate,WA,8.35,9,True,C-0101
+L006350,rate_mismatch,1.73,Billed rate 38.15 vs contract rate 36.42,V02,CKT-10346,2025-08-01,MRC,38.15,38.15,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0102
+L006352,rate_mismatch,1.73,Billed rate 38.15 vs contract rate 36.42,V02,CKT-10346,2025-09-01,MRC,38.15,38.15,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0102
+L006354,rate_mismatch,1.73,Billed rate 38.15 vs contract rate 36.42,V02,CKT-10346,2025-10-01,MRC,38.15,38.15,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0102
+L006356,rate_mismatch,1.73,Billed rate 38.15 vs contract rate 36.42,V02,CKT-10346,2025-11-01,MRC,38.15,38.15,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0102
+L006358,rate_mismatch,1.73,Billed rate 38.15 vs contract rate 36.42,V02,CKT-10346,2025-12-01,MRC,38.15,38.15,36.42,VOICE,intrastate,intrastate,OH,8.4,9,True,C-0102
+L011315,duplicate,593.14,"Repeats line L006475 (same circuit, period and amount)",V02,CKT-10352,2025-10-01,MRC,593.14,593.14,593.14,ETH100,interstate,interstate,TX,0.0,9,True,C-0103
+L006520,spike,404.93,Billed 750.26 vs circuit median 345.33 over 9 prior months,V02,CKT-10355,2025-10-01,MRC,355.69,750.26,355.69,DS1,interstate,interstate,WA,4.42,9,True,C-0104
+L006881,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10376,2025-04-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006882,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10376,2025-05-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006883,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10376,2025-06-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006884,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-07-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006885,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-08-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006886,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-09-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006887,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-10-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006888,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-11-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006889,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10376,2025-12-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,MA,0.0,9,True,C-0105
+L006946,spike,41.46,Billed 76.82 vs circuit median 35.36 over 4 prior months,V02,CKT-10379,2025-05-01,MRC,35.36,76.82,35.36,VOICE,intrastate,intrastate,GA,7.86,9,True,C-0106
+L007011,rate_mismatch,4.45,Billed rate 40.87 vs contract rate 36.42,V02,CKT-10382,2025-08-01,MRC,40.87,40.87,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0107
+L007013,rate_mismatch,4.45,Billed rate 40.87 vs contract rate 36.42,V02,CKT-10382,2025-09-01,MRC,40.87,40.87,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0107
+L007015,rate_mismatch,4.45,Billed rate 40.87 vs contract rate 36.42,V02,CKT-10382,2025-10-01,MRC,40.87,40.87,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0107
+L007017,rate_mismatch,4.45,Billed rate 40.87 vs contract rate 36.42,V02,CKT-10382,2025-11-01,MRC,40.87,40.87,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0107
+L007019,rate_mismatch,4.45,Billed rate 40.87 vs contract rate 36.42,V02,CKT-10382,2025-12-01,MRC,40.87,40.87,36.42,VOICE,intrastate,intrastate,MA,8.44,9,True,C-0107
+L011338,duplicate,866.25,"Repeats line L007074 (same circuit, period and amount)",V02,CKT-10385,2025-06-01,MRC,866.25,866.25,866.25,MPLS,interstate,interstate,GA,0.0,9,True,C-0108
+L007995,spike,498.34,Billed 843.67 vs circuit median 345.33 over 6 prior months,V02,CKT-10434,2025-07-01,MRC,355.69,843.67,355.69,DS1,interstate,interstate,GA,3.85,9,True,C-0109
+L008290,spike,414.27,Billed 902.29 vs circuit median 488.02 over 4 prior months,V02,CKT-10450,2025-05-01,MRC,488.02,902.29,488.02,ETH100,intrastate,intrastate,PA,0.0,9,True,C-0110
+L008518,spike,41.41,Billed 76.77 vs circuit median 35.36 over 6 prior months,V02,CKT-10464,2025-07-01,MRC,36.42,76.77,36.42,VOICE,intrastate,intrastate,WA,3.01,9,True,C-0111
+L008534,rate_mismatch,20.01,Billed rate 312.66 vs contract rate 292.65,V02,CKT-10465,2025-03-01,MRC,312.66,312.66,292.65,DS1,intrastate,intrastate,CA,2.66,9,False,C-0113
+L008536,rate_mismatch,20.01,Billed rate 312.66 vs contract rate 292.65,V02,CKT-10465,2025-04-01,MRC,312.66,312.66,292.65,DS1,intrastate,intrastate,CA,2.66,9,True,C-0113
+L008538,rate_mismatch,20.01,Billed rate 312.66 vs contract rate 292.65,V02,CKT-10465,2025-05-01,MRC,312.66,312.66,292.65,DS1,intrastate,intrastate,CA,2.66,9,True,C-0113
+L008540,rate_mismatch,20.01,Billed rate 312.66 vs contract rate 292.65,V02,CKT-10465,2025-06-01,MRC,312.66,312.66,292.65,DS1,intrastate,intrastate,CA,2.66,9,True,C-0113
+L008542,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-07-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L008544,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-08-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L011353,duplicate,322.04,"Repeats line L008544 (same circuit, period and amount)",V02,CKT-10465,2025-08-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0112
+L008546,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-09-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L008548,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-10-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L008550,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-11-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L008552,rate_mismatch,20.61,Billed rate 322.04 vs contract rate 301.43,V02,CKT-10465,2025-12-01,MRC,322.04,322.04,301.43,DS1,intrastate,intrastate,CA,3.56,9,True,C-0113
+L008734,spike,51.95,Billed 87.31 vs circuit median 35.36 over 5 prior months,V02,CKT-10476,2025-06-01,MRC,35.36,87.31,35.36,VOICE,intrastate,intrastate,IL,7.69,9,True,C-0114
+L011377,surcharge_misrate,21.17,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-06-01,SUR,21.17,21.17,575.86,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011378,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-07-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011379,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-08-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011380,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-09-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011381,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-10-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011382,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-11-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L011383,surcharge_misrate,21.81,Surcharge billed at 3.68 percent; tariff for CO ETH100 is 0.0 percent,V02,CKT-10483,2025-12-01,SUR,21.81,21.81,593.14,ETH100,interstate,interstate,CO,0.0,9,True,C-0115
+L009185,jurisdiction_misrate,6.36,Billed interstate rate 41.72; circuit is intrastate at 35.36,V02,CKT-10502,2025-04-01,MRC,41.72,41.72,35.36,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009187,jurisdiction_misrate,6.36,Billed interstate rate 41.72; circuit is intrastate at 35.36,V02,CKT-10502,2025-05-01,MRC,41.72,41.72,35.36,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009189,jurisdiction_misrate,6.36,Billed interstate rate 41.72; circuit is intrastate at 35.36,V02,CKT-10502,2025-06-01,MRC,41.72,41.72,35.36,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009191,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-07-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009193,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-08-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009195,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-09-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009197,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-10-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009199,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-11-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009201,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10502,2025-12-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,AZ,6.22,9,True,C-0116
+L009427,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10515,2025-08-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,WA,0.0,9,True,C-0117
+L009428,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10515,2025-09-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,WA,0.0,9,True,C-0117
+L009429,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10515,2025-10-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,WA,0.0,9,True,C-0117
+L009430,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10515,2025-11-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,WA,0.0,9,True,C-0117
+L009431,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10515,2025-12-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,WA,0.0,9,True,C-0117
+L009494,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10518,2025-08-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,PA,3.69,9,True,C-0118
+L009496,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10518,2025-09-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,PA,3.69,9,True,C-0118
+L009498,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10518,2025-10-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,PA,3.69,9,True,C-0118
+L009500,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10518,2025-11-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,PA,3.69,9,True,C-0118
+L009502,jurisdiction_misrate,6.55,Billed interstate rate 42.97; circuit is intrastate at 36.42,V02,CKT-10518,2025-12-01,MRC,42.97,42.97,36.42,VOICE,intrastate,interstate,PA,3.69,9,True,C-0118
+L011329,duplicate,292.65,"Repeats line L009722 (same circuit, period and amount)",V02,CKT-10531,2025-02-01,MRC,292.65,292.65,292.65,DS1,intrastate,intrastate,PA,6.16,9,False,C-0119
+L010068,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10551,2025-03-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,WA,0.0,9,False,C-0120
+L010069,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10551,2025-04-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010070,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10551,2025-05-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010071,jurisdiction_misrate,132.14,Billed interstate rate 866.25; circuit is intrastate at 734.11,V02,CKT-10551,2025-06-01,MRC,866.25,866.25,734.11,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010072,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-07-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010073,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-08-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010074,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-09-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010075,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-10-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010076,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-11-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010077,jurisdiction_misrate,136.11,Billed interstate rate 892.24; circuit is intrastate at 756.13,V02,CKT-10551,2025-12-01,MRC,892.24,892.24,756.13,MPLS,intrastate,interstate,WA,0.0,9,True,C-0120
+L010098,spike,295.23,Billed 587.88 vs circuit median 292.65 over 10 prior months,V02,CKT-10552,2025-11-01,MRC,301.43,587.88,301.43,DS1,intrastate,intrastate,OH,7.71,9,True,C-0121
+L011163,post_disconnect,488.02,Billed for 2025-04 after disconnect effective 2025-03-16,V02,CKT-10553,2025-04-01,MRC,488.02,488.02,488.02,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011164,post_disconnect,488.02,Billed for 2025-05 after disconnect effective 2025-03-16,V02,CKT-10553,2025-05-01,MRC,488.02,488.02,488.02,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011165,post_disconnect,488.02,Billed for 2025-06 after disconnect effective 2025-03-16,V02,CKT-10553,2025-06-01,MRC,488.02,488.02,488.02,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011166,post_disconnect,502.66,Billed for 2025-07 after disconnect effective 2025-03-16,V02,CKT-10553,2025-07-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011167,post_disconnect,502.66,Billed for 2025-08 after disconnect effective 2025-03-16,V02,CKT-10553,2025-08-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011168,post_disconnect,502.66,Billed for 2025-09 after disconnect effective 2025-03-16,V02,CKT-10553,2025-09-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011169,post_disconnect,502.66,Billed for 2025-10 after disconnect effective 2025-03-16,V02,CKT-10553,2025-10-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011170,post_disconnect,502.66,Billed for 2025-11 after disconnect effective 2025-03-16,V02,CKT-10553,2025-11-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L011171,post_disconnect,502.66,Billed for 2025-12 after disconnect effective 2025-03-16,V02,CKT-10553,2025-12-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,NY,0.0,9,True,C-0122
+L010418,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10570,2025-04-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010419,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10570,2025-05-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010420,jurisdiction_misrate,87.84,Billed interstate rate 575.86; circuit is intrastate at 488.02,V02,CKT-10570,2025-06-01,MRC,575.86,575.86,488.02,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010421,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-07-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010422,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-08-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010423,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-09-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010424,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-10-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010425,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-11-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L010426,jurisdiction_misrate,90.48,Billed interstate rate 593.14; circuit is intrastate at 502.66,V02,CKT-10570,2025-12-01,MRC,593.14,593.14,502.66,ETH100,intrastate,interstate,CO,0.0,9,True,C-0123
+L011016,post_disconnect,488.02,Billed for 2025-06 after disconnect effective 2025-05-13,V02,CKT-10577,2025-06-01,MRC,488.02,488.02,488.02,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011017,post_disconnect,502.66,Billed for 2025-07 after disconnect effective 2025-05-13,V02,CKT-10577,2025-07-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011018,post_disconnect,502.66,Billed for 2025-08 after disconnect effective 2025-05-13,V02,CKT-10577,2025-08-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011019,post_disconnect,502.66,Billed for 2025-09 after disconnect effective 2025-05-13,V02,CKT-10577,2025-09-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011020,post_disconnect,502.66,Billed for 2025-10 after disconnect effective 2025-05-13,V02,CKT-10577,2025-10-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011021,post_disconnect,502.66,Billed for 2025-11 after disconnect effective 2025-05-13,V02,CKT-10577,2025-11-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L011022,post_disconnect,502.66,Billed for 2025-12 after disconnect effective 2025-05-13,V02,CKT-10577,2025-12-01,MRC,502.66,502.66,502.66,ETH100,intrastate,intrastate,MA,0.0,9,True,C-0124
+L010683,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-07-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L010685,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-08-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L010687,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-09-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L010689,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-10-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L010691,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-11-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L010693,surcharge_misrate,4.52,Surcharge billed at 5.7 percent; tariff for FL DS1 is 4.2 percent,V02,CKT-10585,2025-12-01,SUR,17.18,17.18,301.43,DS1,intrastate,intrastate,FL,4.2,9,True,C-0125
+L011196,unknown_circuit,380.01,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-04-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0126
+L011197,unknown_circuit,380.01,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-05-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0126
+L011198,unknown_circuit,380.01,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-06-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0126
+L011199,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-07-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011200,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-08-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011201,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-09-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011202,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-10-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011203,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-11-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011204,unknown_circuit,391.41,Circuit CKT-90002 is billed but not in the service inventory,V02,CKT-90002,2025-12-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0126
+L011271,unknown_circuit,292.65,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-03-01,MRC,292.65,292.65,,,,intrastate,,,9,False,C-0127
+L011272,unknown_circuit,292.65,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-04-01,MRC,292.65,292.65,,,,intrastate,,,9,True,C-0127
+L011273,unknown_circuit,292.65,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-05-01,MRC,292.65,292.65,,,,intrastate,,,9,True,C-0127
+L011274,unknown_circuit,292.65,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-06-01,MRC,292.65,292.65,,,,intrastate,,,9,True,C-0127
+L011275,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-07-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011276,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-08-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011277,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-09-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011278,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-10-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011279,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-11-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011280,unknown_circuit,301.43,Circuit CKT-90011 is billed but not in the service inventory,V02,CKT-90011,2025-12-01,MRC,301.43,301.43,,,,intrastate,,,9,True,C-0127
+L011281,unknown_circuit,488.02,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-03-01,MRC,488.02,488.02,,,,intrastate,,,9,False,C-0128
+L011282,unknown_circuit,488.02,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-04-01,MRC,488.02,488.02,,,,intrastate,,,9,True,C-0128
+L011283,unknown_circuit,488.02,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-05-01,MRC,488.02,488.02,,,,intrastate,,,9,True,C-0128
+L011284,unknown_circuit,488.02,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-06-01,MRC,488.02,488.02,,,,intrastate,,,9,True,C-0128
+L011285,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-07-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011286,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-08-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011287,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-09-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011288,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-10-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011289,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-11-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011290,unknown_circuit,502.66,Circuit CKT-90012 is billed but not in the service inventory,V02,CKT-90012,2025-12-01,MRC,502.66,502.66,,,,intrastate,,,9,True,C-0128
+L011298,unknown_circuit,380.01,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-03-01,MRC,380.01,380.01,,,,intrastate,,,9,False,C-0129
+L011299,unknown_circuit,380.01,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-04-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0129
+L011300,unknown_circuit,380.01,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-05-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0129
+L011301,unknown_circuit,380.01,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-06-01,MRC,380.01,380.01,,,,intrastate,,,9,True,C-0129
+L011302,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-07-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011303,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-08-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011304,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-09-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011305,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-10-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011306,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-11-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011307,unknown_circuit,391.41,Circuit CKT-90014 is billed but not in the service inventory,V02,CKT-90014,2025-12-01,MRC,391.41,391.41,,,,intrastate,,,9,True,C-0129
+L011007,post_disconnect,41.63,Billed for 2025-04 after disconnect effective 2025-03-29,V03,CKT-10001,2025-04-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,8.15,12,True,C-0130
+L011008,post_disconnect,41.63,Billed for 2025-05 after disconnect effective 2025-03-29,V03,CKT-10001,2025-05-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,8.15,12,True,C-0130
+L011009,post_disconnect,41.63,Billed for 2025-06 after disconnect effective 2025-03-29,V03,CKT-10001,2025-06-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,8.15,12,True,C-0130
+L011010,post_disconnect,41.63,Billed for 2025-07 after disconnect effective 2025-03-29,V03,CKT-10001,2025-07-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L011011,post_disconnect,41.63,Billed for 2025-08 after disconnect effective 2025-03-29,V03,CKT-10001,2025-08-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L011012,post_disconnect,41.63,Billed for 2025-09 after disconnect effective 2025-03-29,V03,CKT-10001,2025-09-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L011013,post_disconnect,41.63,Billed for 2025-10 after disconnect effective 2025-03-29,V03,CKT-10001,2025-10-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L011014,post_disconnect,41.63,Billed for 2025-11 after disconnect effective 2025-03-29,V03,CKT-10001,2025-11-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L011015,post_disconnect,41.63,Billed for 2025-12 after disconnect effective 2025-03-29,V03,CKT-10001,2025-12-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0130
+L000035,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-05-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000036,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-06-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000037,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-07-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000038,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-08-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000039,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-09-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000040,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-10-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000041,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-11-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L000042,jurisdiction_misrate,146.99,Billed interstate rate 963.58; circuit is intrastate at 816.59,V03,CKT-10004,2025-12-01,MRC,963.58,963.58,816.59,MPLS,intrastate,interstate,WA,0.0,12,True,C-0131
+L011322,duplicate,330.48,"Repeats line L000445 (same circuit, period and amount)",V03,CKT-10028,2025-11-01,MRC,330.48,330.48,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0132
+L011313,duplicate,637.71,"Repeats line L000550 (same circuit, period and amount)",V03,CKT-10033,2025-06-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,OH,0.0,12,True,C-0133
+L011023,post_disconnect,637.71,Billed for 2025-05 after disconnect effective 2025-04-07,V03,CKT-10035,2025-05-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011024,post_disconnect,637.71,Billed for 2025-06 after disconnect effective 2025-04-07,V03,CKT-10035,2025-06-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011025,post_disconnect,637.71,Billed for 2025-07 after disconnect effective 2025-04-07,V03,CKT-10035,2025-07-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011026,post_disconnect,637.71,Billed for 2025-08 after disconnect effective 2025-04-07,V03,CKT-10035,2025-08-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011027,post_disconnect,637.71,Billed for 2025-09 after disconnect effective 2025-04-07,V03,CKT-10035,2025-09-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011028,post_disconnect,637.71,Billed for 2025-10 after disconnect effective 2025-04-07,V03,CKT-10035,2025-10-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011029,post_disconnect,637.71,Billed for 2025-11 after disconnect effective 2025-04-07,V03,CKT-10035,2025-11-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L011030,post_disconnect,637.71,Billed for 2025-12 after disconnect effective 2025-04-07,V03,CKT-10035,2025-12-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0134
+L001216,spike,56.44,Billed 98.07 vs circuit median 41.63 over 6 prior months,V03,CKT-10067,2025-07-01,MRC,41.63,98.07,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0135
+L001235,spike,1853.64,Billed 2817.22 vs circuit median 963.58 over 7 prior months,V03,CKT-10068,2025-08-01,MRC,963.58,2817.22,963.58,MPLS,interstate,interstate,MA,0.0,12,True,C-0136
+L001315,spike,46.81,Billed 88.44 vs circuit median 41.63 over 10 prior months,V03,CKT-10073,2025-11-01,MRC,41.63,88.44,41.63,VOICE,intrastate,intrastate,OH,8.4,12,True,C-0137
+L001369,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-06-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001371,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-07-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001373,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-08-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001375,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-09-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001377,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-10-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001379,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-11-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L001381,rate_mismatch,5.31,Billed rate 46.94 vs contract rate 41.63,V03,CKT-10077,2025-12-01,MRC,46.94,46.94,41.63,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0138
+L011144,post_disconnect,389.97,Billed for 2025-10 after disconnect effective 2025-09-11,V03,CKT-10085,2025-10-01,MRC,389.97,389.97,389.97,DS1,interstate,interstate,PA,6.16,12,True,C-0139
+L011145,post_disconnect,389.97,Billed for 2025-11 after disconnect effective 2025-09-11,V03,CKT-10085,2025-11-01,MRC,389.97,389.97,389.97,DS1,interstate,interstate,PA,6.16,12,True,C-0139
+L011146,post_disconnect,389.97,Billed for 2025-12 after disconnect effective 2025-09-11,V03,CKT-10085,2025-12-01,MRC,389.97,389.97,389.97,DS1,interstate,interstate,PA,6.16,12,True,C-0139
+L001813,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-02-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,9.22,12,True,C-0140
+L001815,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-03-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,9.22,12,True,C-0140
+L001817,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-04-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,9.22,12,True,C-0140
+L001819,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-05-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,9.22,12,True,C-0140
+L001821,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-06-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,9.22,12,True,C-0140
+L001823,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-07-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L001825,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-08-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L001827,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-09-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L001829,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-10-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L001831,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-11-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L001833,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10101,2025-12-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,TX,8.12,12,True,C-0140
+L002900,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-07-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L002902,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-08-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L002904,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-09-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L002906,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-10-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L002908,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-11-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L002910,rate_mismatch,45.65,Billed rate 376.13 vs contract rate 330.48,V03,CKT-10162,2025-12-01,MRC,376.13,376.13,330.48,DS1,intrastate,intrastate,NY,3.3,12,True,C-0141
+L011342,duplicate,389.97,"Repeats line L002947 (same circuit, period and amount)",V03,CKT-10165,2025-06-01,MRC,389.97,389.97,389.97,DS1,interstate,interstate,CA,2.66,12,True,C-0142
+L011352,duplicate,389.97,"Repeats line L003093 (same circuit, period and amount)",V03,CKT-10172,2025-01-01,MRC,389.97,389.97,389.97,DS1,interstate,interstate,MA,8.25,12,True,C-0143
+L003785,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-07-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003787,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-08-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003789,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-09-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003791,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-10-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003793,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-11-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003795,rate_mismatch,3.77,Billed rate 45.4 vs contract rate 41.63,V03,CKT-10207,2025-12-01,MRC,45.4,45.4,41.63,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0144
+L003970,rate_mismatch,17.05,Billed rate 407.02 vs contract rate 389.97,V03,CKT-10217,2025-08-01,MRC,407.02,407.02,389.97,DS1,interstate,interstate,OH,7.71,12,True,C-0145
+L003972,rate_mismatch,17.05,Billed rate 407.02 vs contract rate 389.97,V03,CKT-10217,2025-09-01,MRC,407.02,407.02,389.97,DS1,interstate,interstate,OH,7.71,12,True,C-0145
+L003974,rate_mismatch,17.05,Billed rate 407.02 vs contract rate 389.97,V03,CKT-10217,2025-10-01,MRC,407.02,407.02,389.97,DS1,interstate,interstate,OH,7.71,12,True,C-0145
+L003976,rate_mismatch,17.05,Billed rate 407.02 vs contract rate 389.97,V03,CKT-10217,2025-11-01,MRC,407.02,407.02,389.97,DS1,interstate,interstate,OH,7.71,12,True,C-0145
+L003978,rate_mismatch,17.05,Billed rate 407.02 vs contract rate 389.97,V03,CKT-10217,2025-12-01,MRC,407.02,407.02,389.97,DS1,interstate,interstate,OH,7.71,12,True,C-0145
+L011351,duplicate,41.63,"Repeats line L004225 (same circuit, period and amount)",V03,CKT-10232,2025-08-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,TX,7.76,12,True,C-0146
+L004493,spike,321.96,Billed 652.44 vs circuit median 330.48 over 7 prior months,V03,CKT-10246,2025-08-01,MRC,330.48,652.44,330.48,DS1,intrastate,intrastate,IL,4.06,12,True,C-0147
+L004826,spike,455.32,Billed 902.61 vs circuit median 447.29 over 11 prior months,V03,CKT-10261,2025-12-01,MRC,447.29,902.61,447.29,PRI,intrastate,intrastate,MA,2.85,12,True,C-0148
+L005035,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-06-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,4.1,12,True,C-0149
+L005037,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-07-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L005039,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-08-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L005041,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-09-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L005043,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-10-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L005045,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-11-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L005047,jurisdiction_misrate,59.49,Billed interstate rate 389.97; circuit is intrastate at 330.48,V03,CKT-10274,2025-12-01,MRC,389.97,389.97,330.48,DS1,intrastate,interstate,NY,3.3,12,True,C-0149
+L011152,post_disconnect,540.43,Billed for 2025-10 after disconnect effective 2025-09-21,V03,CKT-10286,2025-10-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,NY,0.0,12,True,C-0150
+L011153,post_disconnect,540.43,Billed for 2025-11 after disconnect effective 2025-09-21,V03,CKT-10286,2025-11-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,NY,0.0,12,True,C-0150
+L011154,post_disconnect,540.43,Billed for 2025-12 after disconnect effective 2025-09-21,V03,CKT-10286,2025-12-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,NY,0.0,12,True,C-0150
+L005974,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-07-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L005976,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-08-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L005978,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-09-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L005980,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-10-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L005982,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-11-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L005984,rate_mismatch,41.36,Billed rate 431.33 vs contract rate 389.97,V03,CKT-10324,2025-12-01,MRC,431.33,431.33,389.97,DS1,interstate,interstate,TX,8.12,12,True,C-0151
+L011384,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-05-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011385,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-06-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011386,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-07-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011387,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-08-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011388,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-09-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011389,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-10-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011390,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-11-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011391,surcharge_misrate,20.85,Surcharge billed at 3.86 percent; tariff for CO ETH100 is 0.0 percent,V03,CKT-10326,2025-12-01,SUR,20.85,20.85,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0152
+L011059,post_disconnect,41.63,Billed for 2025-04 after disconnect effective 2025-03-01,V03,CKT-10338,2025-04-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.95,12,True,C-0153
+L011060,post_disconnect,41.63,Billed for 2025-05 after disconnect effective 2025-03-01,V03,CKT-10338,2025-05-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.95,12,True,C-0153
+L011061,post_disconnect,41.63,Billed for 2025-06 after disconnect effective 2025-03-01,V03,CKT-10338,2025-06-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.95,12,True,C-0153
+L011062,post_disconnect,41.63,Billed for 2025-07 after disconnect effective 2025-03-01,V03,CKT-10338,2025-07-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L011063,post_disconnect,41.63,Billed for 2025-08 after disconnect effective 2025-03-01,V03,CKT-10338,2025-08-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L011064,post_disconnect,41.63,Billed for 2025-09 after disconnect effective 2025-03-01,V03,CKT-10338,2025-09-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L011065,post_disconnect,41.63,Billed for 2025-10 after disconnect effective 2025-03-01,V03,CKT-10338,2025-10-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L011066,post_disconnect,41.63,Billed for 2025-11 after disconnect effective 2025-03-01,V03,CKT-10338,2025-11-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L011067,post_disconnect,41.63,Billed for 2025-12 after disconnect effective 2025-03-01,V03,CKT-10338,2025-12-01,MRC,41.63,41.63,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0153
+L006205,rate_mismatch,56.06,Billed rate 1019.64 vs contract rate 963.58,V03,CKT-10339,2025-08-01,MRC,1019.64,1019.64,963.58,MPLS,interstate,interstate,AZ,0.0,12,True,C-0154
+L006206,rate_mismatch,56.06,Billed rate 1019.64 vs contract rate 963.58,V03,CKT-10339,2025-09-01,MRC,1019.64,1019.64,963.58,MPLS,interstate,interstate,AZ,0.0,12,True,C-0154
+L006207,rate_mismatch,56.06,Billed rate 1019.64 vs contract rate 963.58,V03,CKT-10339,2025-10-01,MRC,1019.64,1019.64,963.58,MPLS,interstate,interstate,AZ,0.0,12,True,C-0154
+L006208,rate_mismatch,56.06,Billed rate 1019.64 vs contract rate 963.58,V03,CKT-10339,2025-11-01,MRC,1019.64,1019.64,963.58,MPLS,interstate,interstate,AZ,0.0,12,True,C-0154
+L006209,rate_mismatch,56.06,Billed rate 1019.64 vs contract rate 963.58,V03,CKT-10339,2025-12-01,MRC,1019.64,1019.64,963.58,MPLS,interstate,interstate,AZ,0.0,12,True,C-0154
+L006248,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10341,2025-08-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,CA,7.93,12,True,C-0155
+L006250,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10341,2025-09-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,CA,7.93,12,True,C-0155
+L006252,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10341,2025-10-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,CA,7.93,12,True,C-0155
+L006254,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10341,2025-11-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,CA,7.93,12,True,C-0155
+L006256,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10341,2025-12-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,CA,7.93,12,True,C-0155
+L006326,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10345,2025-08-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,FL,6.65,12,True,C-0156
+L006328,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10345,2025-09-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,FL,6.65,12,True,C-0156
+L006330,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10345,2025-10-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,FL,6.65,12,True,C-0156
+L006332,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10345,2025-11-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,FL,6.65,12,True,C-0156
+L006334,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10345,2025-12-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,FL,6.65,12,True,C-0156
+L006416,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-05-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.95,12,True,C-0158
+L006418,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-06-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.95,12,True,C-0158
+L006420,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-07-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L006422,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-08-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L011357,duplicate,46.4,"Repeats line L006422 (same circuit, period and amount)",V03,CKT-10349,2025-08-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0157
+L006424,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-09-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L006426,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-10-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L006428,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-11-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L006430,rate_mismatch,4.77,Billed rate 46.4 vs contract rate 41.63,V03,CKT-10349,2025-12-01,MRC,46.4,46.4,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0158
+L011108,post_disconnect,816.59,Billed for 2025-06 after disconnect effective 2025-05-01,V03,CKT-10370,2025-06-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011109,post_disconnect,816.59,Billed for 2025-07 after disconnect effective 2025-05-01,V03,CKT-10370,2025-07-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011110,post_disconnect,816.59,Billed for 2025-08 after disconnect effective 2025-05-01,V03,CKT-10370,2025-08-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011111,post_disconnect,816.59,Billed for 2025-09 after disconnect effective 2025-05-01,V03,CKT-10370,2025-09-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011112,post_disconnect,816.59,Billed for 2025-10 after disconnect effective 2025-05-01,V03,CKT-10370,2025-10-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011113,post_disconnect,816.59,Billed for 2025-11 after disconnect effective 2025-05-01,V03,CKT-10370,2025-11-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011114,post_disconnect,816.59,Billed for 2025-12 after disconnect effective 2025-05-01,V03,CKT-10370,2025-12-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,PA,0.0,12,True,C-0159
+L011343,duplicate,816.59,"Repeats line L007259 (same circuit, period and amount)",V03,CKT-10395,2025-11-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,NY,0.0,12,True,C-0160
+L007353,spike,82.52,Billed 124.15 vs circuit median 41.63 over 10 prior months,V03,CKT-10399,2025-11-01,MRC,41.63,124.15,41.63,VOICE,intrastate,intrastate,OH,8.4,12,True,C-0161
+L007384,spike,667.17,Billed 1304.88 vs circuit median 637.71 over 3 prior months,V03,CKT-10401,2025-04-01,MRC,637.71,1304.88,637.71,ETH100,interstate,interstate,MA,0.0,12,True,C-0162
+L007412,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-07-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007414,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-08-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007416,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-09-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007418,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-10-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007420,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-11-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007422,surcharge_misrate,3.64,Surcharge billed at 9.22 percent; tariff for TX DS1 is 8.12 percent,V03,CKT-10403,2025-12-01,SUR,30.47,30.47,330.48,DS1,intrastate,intrastate,TX,8.12,12,True,C-0163
+L007790,spike,429.4,Billed 819.37 vs circuit median 389.97 over 9 prior months,V03,CKT-10421,2025-10-01,MRC,389.97,819.37,389.97,DS1,interstate,interstate,GA,3.85,12,True,C-0164
+L011325,duplicate,637.71,"Repeats line L008056 (same circuit, period and amount)",V03,CKT-10437,2025-02-01,MRC,637.71,637.71,637.71,ETH100,interstate,interstate,AZ,0.0,12,True,C-0165
+L008095,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-07-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008097,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-08-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008099,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-09-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008101,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-10-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008103,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-11-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008105,jurisdiction_misrate,7.49,Billed interstate rate 49.12; circuit is intrastate at 41.63,V03,CKT-10439,2025-12-01,MRC,49.12,49.12,41.63,VOICE,intrastate,interstate,NY,4.15,12,True,C-0166
+L008197,spike,44.14,Billed 85.77 vs circuit median 41.63 over 6 prior months,V03,CKT-10444,2025-07-01,MRC,41.63,85.77,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0167
+L011076,post_disconnect,816.59,Billed for 2025-03 after disconnect effective 2025-02-11,V03,CKT-10458,2025-03-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011077,post_disconnect,816.59,Billed for 2025-04 after disconnect effective 2025-02-11,V03,CKT-10458,2025-04-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011078,post_disconnect,816.59,Billed for 2025-05 after disconnect effective 2025-02-11,V03,CKT-10458,2025-05-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011079,post_disconnect,816.59,Billed for 2025-06 after disconnect effective 2025-02-11,V03,CKT-10458,2025-06-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011080,post_disconnect,816.59,Billed for 2025-07 after disconnect effective 2025-02-11,V03,CKT-10458,2025-07-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011081,post_disconnect,816.59,Billed for 2025-08 after disconnect effective 2025-02-11,V03,CKT-10458,2025-08-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011082,post_disconnect,816.59,Billed for 2025-09 after disconnect effective 2025-02-11,V03,CKT-10458,2025-09-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011083,post_disconnect,816.59,Billed for 2025-10 after disconnect effective 2025-02-11,V03,CKT-10458,2025-10-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011084,post_disconnect,816.59,Billed for 2025-11 after disconnect effective 2025-02-11,V03,CKT-10458,2025-11-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011085,post_disconnect,816.59,Billed for 2025-12 after disconnect effective 2025-02-11,V03,CKT-10458,2025-12-01,MRC,816.59,816.59,816.59,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0168
+L011323,duplicate,540.43,"Repeats line L008912 (same circuit, period and amount)",V03,CKT-10485,2025-05-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,TX,0.0,12,True,C-0169
+L011115,post_disconnect,540.43,Billed for 2025-03 after disconnect effective 2025-02-03,V03,CKT-10500,2025-03-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011116,post_disconnect,540.43,Billed for 2025-04 after disconnect effective 2025-02-03,V03,CKT-10500,2025-04-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011117,post_disconnect,540.43,Billed for 2025-05 after disconnect effective 2025-02-03,V03,CKT-10500,2025-05-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011118,post_disconnect,540.43,Billed for 2025-06 after disconnect effective 2025-02-03,V03,CKT-10500,2025-06-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011119,post_disconnect,540.43,Billed for 2025-07 after disconnect effective 2025-02-03,V03,CKT-10500,2025-07-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011120,post_disconnect,540.43,Billed for 2025-08 after disconnect effective 2025-02-03,V03,CKT-10500,2025-08-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011121,post_disconnect,540.43,Billed for 2025-09 after disconnect effective 2025-02-03,V03,CKT-10500,2025-09-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011122,post_disconnect,540.43,Billed for 2025-10 after disconnect effective 2025-02-03,V03,CKT-10500,2025-10-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011123,post_disconnect,540.43,Billed for 2025-11 after disconnect effective 2025-02-03,V03,CKT-10500,2025-11-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L011124,post_disconnect,540.43,Billed for 2025-12 after disconnect effective 2025-02-03,V03,CKT-10500,2025-12-01,MRC,540.43,540.43,540.43,ETH100,intrastate,intrastate,GA,0.0,12,True,C-0170
+L009636,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-07-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009638,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-08-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009640,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-09-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009642,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-10-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009644,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-11-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009646,rate_mismatch,4.87,Billed rate 46.5 vs contract rate 41.63,V03,CKT-10525,2025-12-01,MRC,46.5,46.5,41.63,VOICE,intrastate,intrastate,NY,4.15,12,True,C-0171
+L009689,spike,540.0,Billed 1080.43 vs circuit median 540.43 over 5 prior months,V03,CKT-10528,2025-06-01,MRC,540.43,1080.43,540.43,ETH100,intrastate,intrastate,CA,0.0,12,True,C-0172
+L009711,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-04-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009712,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-05-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009713,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-06-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009714,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-07-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009715,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-08-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009716,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-09-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009717,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-10-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009718,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-11-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L009719,rate_mismatch,61.06,Billed rate 601.49 vs contract rate 540.43,V03,CKT-10530,2025-12-01,MRC,601.49,601.49,540.43,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0173
+L010208,rate_mismatch,30.29,Billed rate 570.72 vs contract rate 540.43,V03,CKT-10558,2025-08-01,MRC,570.72,570.72,540.43,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0174
+L010209,rate_mismatch,30.29,Billed rate 570.72 vs contract rate 540.43,V03,CKT-10558,2025-09-01,MRC,570.72,570.72,540.43,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0174
+L010210,rate_mismatch,30.29,Billed rate 570.72 vs contract rate 540.43,V03,CKT-10558,2025-10-01,MRC,570.72,570.72,540.43,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0174
+L010211,rate_mismatch,30.29,Billed rate 570.72 vs contract rate 540.43,V03,CKT-10558,2025-11-01,MRC,570.72,570.72,540.43,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0174
+L010212,rate_mismatch,30.29,Billed rate 570.72 vs contract rate 540.43,V03,CKT-10558,2025-12-01,MRC,570.72,570.72,540.43,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0174
+L010489,jurisdiction_misrate,80.51,Billed interstate rate 527.8; circuit is intrastate at 447.29,V03,CKT-10573,2025-08-01,MRC,527.8,527.8,447.29,PRI,intrastate,interstate,OH,3.18,12,True,C-0175
+L010491,jurisdiction_misrate,80.51,Billed interstate rate 527.8; circuit is intrastate at 447.29,V03,CKT-10573,2025-09-01,MRC,527.8,527.8,447.29,PRI,intrastate,interstate,OH,3.18,12,True,C-0175
+L010493,jurisdiction_misrate,80.51,Billed interstate rate 527.8; circuit is intrastate at 447.29,V03,CKT-10573,2025-10-01,MRC,527.8,527.8,447.29,PRI,intrastate,interstate,OH,3.18,12,True,C-0175
+L010495,jurisdiction_misrate,80.51,Billed interstate rate 527.8; circuit is intrastate at 447.29,V03,CKT-10573,2025-11-01,MRC,527.8,527.8,447.29,PRI,intrastate,interstate,OH,3.18,12,True,C-0175
+L010497,jurisdiction_misrate,80.51,Billed interstate rate 527.8; circuit is intrastate at 447.29,V03,CKT-10573,2025-12-01,MRC,527.8,527.8,447.29,PRI,intrastate,interstate,OH,3.18,12,True,C-0175
+L011344,duplicate,330.48,"Repeats line L010593 (same circuit, period and amount)",V03,CKT-10580,2025-06-01,MRC,330.48,330.48,330.48,DS1,intrastate,intrastate,IL,4.06,12,True,C-0176
+L011346,duplicate,330.48,"Repeats line L010755 (same circuit, period and amount)",V03,CKT-10589,2025-01-01,MRC,330.48,330.48,330.48,DS1,intrastate,intrastate,OH,7.71,12,True,C-0177
+L011190,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-07-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011191,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-08-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011192,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-09-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011193,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-10-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011194,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-11-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011195,unknown_circuit,447.29,Circuit CKT-90001 is billed but not in the service inventory,V03,CKT-90001,2025-12-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0178
+L011205,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-05-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011206,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-06-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011207,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-07-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011208,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-08-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011209,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-09-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011210,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-10-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011211,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-11-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011212,unknown_circuit,330.48,Circuit CKT-90003 is billed but not in the service inventory,V03,CKT-90003,2025-12-01,MRC,330.48,330.48,,,,intrastate,,,12,True,C-0179
+L011213,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-05-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011214,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-06-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011215,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-07-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011216,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-08-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011217,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-09-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011218,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-10-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011219,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-11-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011220,unknown_circuit,447.29,Circuit CKT-90004 is billed but not in the service inventory,V03,CKT-90004,2025-12-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0180
+L011221,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-03-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011222,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-04-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011223,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-05-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011224,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-06-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011225,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-07-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011226,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-08-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011227,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-09-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011228,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-10-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011229,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-11-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011230,unknown_circuit,447.29,Circuit CKT-90005 is billed but not in the service inventory,V03,CKT-90005,2025-12-01,MRC,447.29,447.29,,,,intrastate,,,12,True,C-0181
+L011252,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-03-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011253,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-04-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011254,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-05-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011255,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-06-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011256,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-07-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011257,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-08-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011258,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-09-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011259,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-10-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011260,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-11-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011261,unknown_circuit,41.63,Circuit CKT-90009 is billed but not in the service inventory,V03,CKT-90009,2025-12-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0182
+L011308,unknown_circuit,41.63,Circuit CKT-90015 is billed but not in the service inventory,V03,CKT-90015,2025-08-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0183
+L011309,unknown_circuit,41.63,Circuit CKT-90015 is billed but not in the service inventory,V03,CKT-90015,2025-09-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0183
+L011310,unknown_circuit,41.63,Circuit CKT-90015 is billed but not in the service inventory,V03,CKT-90015,2025-10-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0183
+L011311,unknown_circuit,41.63,Circuit CKT-90015 is billed but not in the service inventory,V03,CKT-90015,2025-11-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0183
+L011312,unknown_circuit,41.63,Circuit CKT-90015 is billed but not in the service inventory,V03,CKT-90015,2025-12-01,MRC,41.63,41.63,,,,intrastate,,,12,True,C-0183
+L011335,duplicate,289.54,"Repeats line L000075 (same circuit, period and amount)",V04,CKT-10006,2025-05-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0184
+L000762,rate_mismatch,2.35,Billed rate 37.26 vs contract rate 34.91,V04,CKT-10045,2025-08-01,MRC,37.26,37.26,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0185
+L000764,rate_mismatch,2.35,Billed rate 37.26 vs contract rate 34.91,V04,CKT-10045,2025-09-01,MRC,37.26,37.26,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0185
+L000766,rate_mismatch,2.35,Billed rate 37.26 vs contract rate 34.91,V04,CKT-10045,2025-10-01,MRC,37.26,37.26,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0185
+L000768,rate_mismatch,2.35,Billed rate 37.26 vs contract rate 34.91,V04,CKT-10045,2025-11-01,MRC,37.26,37.26,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0185
+L000770,rate_mismatch,2.35,Billed rate 37.26 vs contract rate 34.91,V04,CKT-10045,2025-12-01,MRC,37.26,37.26,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0185
+L011327,duplicate,455.07,"Repeats line L000907 (same circuit, period and amount)",V04,CKT-10053,2025-04-01,MRC,455.07,455.07,455.07,PRI,interstate,interstate,OH,3.18,12,True,C-0186
+L011408,surcharge_misrate,28.49,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-02-01,SUR,28.49,28.49,587.2,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011409,surcharge_misrate,28.49,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-03-01,SUR,28.49,28.49,587.2,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011410,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-04-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011411,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-05-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011412,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-06-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011413,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-07-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011414,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-08-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011415,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-09-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011416,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-10-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011417,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-11-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L011418,surcharge_misrate,27.06,Surcharge billed at 4.85 percent; tariff for FL ETH100 is 0.0 percent,V04,CKT-10083,2025-12-01,SUR,27.06,27.06,557.84,ETH100,interstate,interstate,FL,0.0,12,True,C-0187
+L001722,rate_mismatch,33.26,Billed rate 506.01 vs contract rate 472.75,V04,CKT-10095,2025-08-01,MRC,506.01,506.01,472.75,ETH100,intrastate,intrastate,MA,0.0,12,True,C-0188
+L001723,rate_mismatch,33.26,Billed rate 506.01 vs contract rate 472.75,V04,CKT-10095,2025-09-01,MRC,506.01,506.01,472.75,ETH100,intrastate,intrastate,MA,0.0,12,True,C-0188
+L001724,rate_mismatch,33.26,Billed rate 506.01 vs contract rate 472.75,V04,CKT-10095,2025-10-01,MRC,506.01,506.01,472.75,ETH100,intrastate,intrastate,MA,0.0,12,True,C-0188
+L001725,rate_mismatch,33.26,Billed rate 506.01 vs contract rate 472.75,V04,CKT-10095,2025-11-01,MRC,506.01,506.01,472.75,ETH100,intrastate,intrastate,MA,0.0,12,True,C-0188
+L001726,rate_mismatch,33.26,Billed rate 506.01 vs contract rate 472.75,V04,CKT-10095,2025-12-01,MRC,506.01,506.01,472.75,ETH100,intrastate,intrastate,MA,0.0,12,True,C-0188
+L011345,duplicate,557.84,"Repeats line L001956 (same circuit, period and amount)",V04,CKT-10108,2025-07-01,MRC,557.84,557.84,557.84,ETH100,interstate,interstate,PA,0.0,12,True,C-0189
+L011072,post_disconnect,733.12,Billed for 2025-09 after disconnect effective 2025-08-13,V04,CKT-10114,2025-09-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,NY,0.0,12,True,C-0190
+L011073,post_disconnect,733.12,Billed for 2025-10 after disconnect effective 2025-08-13,V04,CKT-10114,2025-10-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,NY,0.0,12,True,C-0190
+L011074,post_disconnect,733.12,Billed for 2025-11 after disconnect effective 2025-08-13,V04,CKT-10114,2025-11-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,NY,0.0,12,True,C-0190
+L011075,post_disconnect,733.12,Billed for 2025-12 after disconnect effective 2025-08-13,V04,CKT-10114,2025-12-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,NY,0.0,12,True,C-0190
+L002451,spike,67.56,Billed 102.47 vs circuit median 34.91 over 8 prior months,V04,CKT-10137,2025-09-01,MRC,34.91,102.47,34.91,VOICE,intrastate,intrastate,GA,7.86,12,True,C-0191
+L011318,duplicate,733.12,"Repeats line L002578 (same circuit, period and amount)",V04,CKT-10144,2025-12-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0192
+L002834,spike,359.7,Billed 765.65 vs circuit median 405.95 over 3 prior months,V04,CKT-10159,2025-04-01,MRC,385.65,765.65,385.65,PRI,intrastate,intrastate,CA,3.25,12,True,C-0193
+L011320,duplicate,557.84,"Repeats line L002885 (same circuit, period and amount)",V04,CKT-10161,2025-10-01,MRC,557.84,557.84,557.84,ETH100,interstate,interstate,PA,0.0,12,True,C-0194
+L011319,duplicate,472.75,"Repeats line L002917 (same circuit, period and amount)",V04,CKT-10163,2025-06-01,MRC,472.75,472.75,472.75,ETH100,intrastate,intrastate,CO,0.0,12,True,C-0195
+L003395,spike,44.52,Billed 80.35 vs circuit median 35.83 over 6 prior months,V04,CKT-10188,2025-07-01,MRC,34.91,80.35,34.91,VOICE,intrastate,intrastate,MA,8.44,12,True,C-0196
+L003443,spike,46.68,Billed 82.51 vs circuit median 35.83 over 6 prior months,V04,CKT-10190,2025-07-01,MRC,34.91,82.51,34.91,VOICE,intrastate,intrastate,PA,3.69,12,True,C-0197
+L011350,duplicate,289.54,"Repeats line L004513 (same circuit, period and amount)",V04,CKT-10247,2025-06-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,FL,5.7,12,True,C-0198
+L004790,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-06-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004792,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-07-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004794,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-08-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004796,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-09-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004798,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-10-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004800,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-11-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L004802,rate_mismatch,4.36,Billed rate 39.27 vs contract rate 34.91,V04,CKT-10260,2025-12-01,MRC,39.27,39.27,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0199
+L005089,rate_mismatch,21.99,Billed rate 381.63 vs contract rate 359.64,V04,CKT-10277,2025-03-01,MRC,381.63,381.63,359.64,DS1,interstate,interstate,NY,4.1,12,True,C-0200
+L005091,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-04-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,4.1,12,True,C-0200
+L005093,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-05-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,4.1,12,True,C-0200
+L005095,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-06-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,4.1,12,True,C-0200
+L005097,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-07-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005099,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-08-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005101,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-09-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005103,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-10-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005105,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-11-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005107,rate_mismatch,20.89,Billed rate 362.55 vs contract rate 341.66,V04,CKT-10277,2025-12-01,MRC,362.55,362.55,341.66,DS1,interstate,interstate,NY,3.3,12,True,C-0200
+L005677,spike,355.87,Billed 645.41 vs circuit median 289.54 over 9 prior months,V04,CKT-10308,2025-10-01,MRC,289.54,645.41,289.54,DS1,intrastate,intrastate,PA,6.16,12,True,C-0201
+L011341,duplicate,733.12,"Repeats line L005763 (same circuit, period and amount)",V04,CKT-10313,2025-08-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,CA,0.0,12,True,C-0202
+L011095,post_disconnect,289.54,Billed for 2025-06 after disconnect effective 2025-05-24,V04,CKT-10316,2025-06-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,9.22,12,True,C-0203
+L011096,post_disconnect,289.54,Billed for 2025-07 after disconnect effective 2025-05-24,V04,CKT-10316,2025-07-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011097,post_disconnect,289.54,Billed for 2025-08 after disconnect effective 2025-05-24,V04,CKT-10316,2025-08-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011098,post_disconnect,289.54,Billed for 2025-09 after disconnect effective 2025-05-24,V04,CKT-10316,2025-09-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011099,post_disconnect,289.54,Billed for 2025-10 after disconnect effective 2025-05-24,V04,CKT-10316,2025-10-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011100,post_disconnect,289.54,Billed for 2025-11 after disconnect effective 2025-05-24,V04,CKT-10316,2025-11-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011101,post_disconnect,289.54,Billed for 2025-12 after disconnect effective 2025-05-24,V04,CKT-10316,2025-12-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,TX,8.12,12,True,C-0203
+L011348,duplicate,557.84,"Repeats line L006500 (same circuit, period and amount)",V04,CKT-10354,2025-11-01,MRC,557.84,557.84,557.84,ETH100,interstate,interstate,CA,0.0,12,True,C-0204
+L011045,post_disconnect,385.65,Billed for 2025-04 after disconnect effective 2025-03-03,V04,CKT-10357,2025-04-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011046,post_disconnect,385.65,Billed for 2025-05 after disconnect effective 2025-03-03,V04,CKT-10357,2025-05-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011047,post_disconnect,385.65,Billed for 2025-06 after disconnect effective 2025-03-03,V04,CKT-10357,2025-06-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011048,post_disconnect,385.65,Billed for 2025-07 after disconnect effective 2025-03-03,V04,CKT-10357,2025-07-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011049,post_disconnect,385.65,Billed for 2025-08 after disconnect effective 2025-03-03,V04,CKT-10357,2025-08-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011050,post_disconnect,385.65,Billed for 2025-09 after disconnect effective 2025-03-03,V04,CKT-10357,2025-09-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011051,post_disconnect,385.65,Billed for 2025-10 after disconnect effective 2025-03-03,V04,CKT-10357,2025-10-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011052,post_disconnect,385.65,Billed for 2025-11 after disconnect effective 2025-03-03,V04,CKT-10357,2025-11-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011053,post_disconnect,385.65,Billed for 2025-12 after disconnect effective 2025-03-03,V04,CKT-10357,2025-12-01,MRC,385.65,385.65,385.65,PRI,intrastate,intrastate,WA,8.35,12,True,C-0205
+L011185,post_disconnect,733.12,Billed for 2025-08 after disconnect effective 2025-07-30,V04,CKT-10371,2025-08-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,GA,0.0,12,True,C-0206
+L011186,post_disconnect,733.12,Billed for 2025-09 after disconnect effective 2025-07-30,V04,CKT-10371,2025-09-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,GA,0.0,12,True,C-0206
+L011187,post_disconnect,733.12,Billed for 2025-10 after disconnect effective 2025-07-30,V04,CKT-10371,2025-10-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,GA,0.0,12,True,C-0206
+L011188,post_disconnect,733.12,Billed for 2025-11 after disconnect effective 2025-07-30,V04,CKT-10371,2025-11-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,GA,0.0,12,True,C-0206
+L011189,post_disconnect,733.12,Billed for 2025-12 after disconnect effective 2025-07-30,V04,CKT-10371,2025-12-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,GA,0.0,12,True,C-0206
+L006843,spike,475.89,Billed 861.54 vs circuit median 385.65 over 11 prior months,V04,CKT-10373,2025-12-01,MRC,385.65,861.54,385.65,PRI,intrastate,intrastate,GA,6.75,12,True,C-0207
+L007881,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-07-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L007883,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-08-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L007885,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-09-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L007887,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-10-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L007889,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-11-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L007891,surcharge_misrate,3.09,Surcharge billed at 4.28 percent; tariff for NY PRI is 3.48 percent,V04,CKT-10427,2025-12-01,SUR,16.51,16.51,385.65,PRI,intrastate,intrastate,NY,3.48,12,True,C-0208
+L011326,duplicate,472.75,"Repeats line L008260 (same circuit, period and amount)",V04,CKT-10448,2025-11-01,MRC,472.75,472.75,472.75,ETH100,intrastate,intrastate,NY,0.0,12,True,C-0209
+L008752,rate_mismatch,3.76,Billed rate 40.51 vs contract rate 36.75,V04,CKT-10477,2025-03-01,MRC,40.51,40.51,36.75,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008754,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-04-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008756,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-05-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008758,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-06-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008760,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-07-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008762,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-08-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008764,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-09-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008766,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-10-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008768,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-11-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008770,rate_mismatch,3.57,Billed rate 38.48 vs contract rate 34.91,V04,CKT-10477,2025-12-01,MRC,38.48,38.48,34.91,VOICE,intrastate,intrastate,WA,3.01,12,True,C-0210
+L008889,surcharge_misrate,7.9,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-03-01,SUR,35.6,35.6,304.78,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008891,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-04-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008893,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-05-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008895,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-06-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008897,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-07-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008899,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-08-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008901,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-09-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008903,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-10-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008905,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-11-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L008907,surcharge_misrate,7.5,Surcharge billed at 11.68 percent; tariff for CO DS1 is 9.09 percent,V04,CKT-10484,2025-12-01,SUR,33.82,33.82,289.54,DS1,intrastate,intrastate,CO,9.09,12,True,C-0211
+L011333,duplicate,497.63,"Repeats line L008975 (same circuit, period and amount)",V04,CKT-10489,2025-03-01,MRC,497.63,497.63,497.63,ETH100,intrastate,intrastate,FL,0.0,12,True,C-0212
+L009168,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-07-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009170,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-08-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009172,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-09-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009174,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-10-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009176,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-11-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009178,surcharge_misrate,0.53,Surcharge billed at 8.16 percent; tariff for FL VOICE is 6.65 percent,V04,CKT-10501,2025-12-01,SUR,2.85,2.85,34.91,VOICE,intrastate,intrastate,FL,6.65,12,True,C-0213
+L009547,rate_mismatch,50.02,Billed rate 607.86 vs contract rate 557.84,V04,CKT-10521,2025-08-01,MRC,607.86,607.86,557.84,ETH100,interstate,interstate,OH,0.0,12,True,C-0214
+L009548,rate_mismatch,50.02,Billed rate 607.86 vs contract rate 557.84,V04,CKT-10521,2025-09-01,MRC,607.86,607.86,557.84,ETH100,interstate,interstate,OH,0.0,12,True,C-0214
+L009549,rate_mismatch,50.02,Billed rate 607.86 vs contract rate 557.84,V04,CKT-10521,2025-10-01,MRC,607.86,607.86,557.84,ETH100,interstate,interstate,OH,0.0,12,True,C-0214
+L009550,rate_mismatch,50.02,Billed rate 607.86 vs contract rate 557.84,V04,CKT-10521,2025-11-01,MRC,607.86,607.86,557.84,ETH100,interstate,interstate,OH,0.0,12,True,C-0214
+L009551,rate_mismatch,50.02,Billed rate 607.86 vs contract rate 557.84,V04,CKT-10521,2025-12-01,MRC,607.86,607.86,557.84,ETH100,interstate,interstate,OH,0.0,12,True,C-0214
+L009883,spike,71.04,Billed 105.95 vs circuit median 34.91 over 10 prior months,V04,CKT-10540,2025-11-01,MRC,34.91,105.95,34.91,VOICE,intrastate,intrastate,TX,7.76,12,True,C-0215
+L009888,jurisdiction_misrate,89.57,Billed interstate rate 587.2; circuit is intrastate at 497.63,V04,CKT-10541,2025-02-01,MRC,587.2,587.2,497.63,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009889,jurisdiction_misrate,89.57,Billed interstate rate 587.2; circuit is intrastate at 497.63,V04,CKT-10541,2025-03-01,MRC,587.2,587.2,497.63,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009890,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-04-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009891,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-05-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009892,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-06-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009893,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-07-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009894,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-08-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009895,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-09-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009896,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-10-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009897,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-11-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L009898,jurisdiction_misrate,85.09,Billed interstate rate 557.84; circuit is intrastate at 472.75,V04,CKT-10541,2025-12-01,MRC,557.84,557.84,472.75,ETH100,intrastate,interstate,OH,0.0,12,True,C-0216
+L011337,duplicate,289.54,"Repeats line L010325 (same circuit, period and amount)",V04,CKT-10565,2025-10-01,MRC,289.54,289.54,289.54,DS1,intrastate,intrastate,PA,6.16,12,True,C-0217
+L011031,post_disconnect,733.12,Billed for 2025-04 after disconnect effective 2025-03-30,V04,CKT-10581,2025-04-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011032,post_disconnect,733.12,Billed for 2025-05 after disconnect effective 2025-03-30,V04,CKT-10581,2025-05-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011033,post_disconnect,733.12,Billed for 2025-06 after disconnect effective 2025-03-30,V04,CKT-10581,2025-06-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011034,post_disconnect,733.12,Billed for 2025-07 after disconnect effective 2025-03-30,V04,CKT-10581,2025-07-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011035,post_disconnect,733.12,Billed for 2025-08 after disconnect effective 2025-03-30,V04,CKT-10581,2025-08-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011036,post_disconnect,733.12,Billed for 2025-09 after disconnect effective 2025-03-30,V04,CKT-10581,2025-09-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011037,post_disconnect,733.12,Billed for 2025-10 after disconnect effective 2025-03-30,V04,CKT-10581,2025-10-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011038,post_disconnect,733.12,Billed for 2025-11 after disconnect effective 2025-03-30,V04,CKT-10581,2025-11-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011039,post_disconnect,733.12,Billed for 2025-12 after disconnect effective 2025-03-30,V04,CKT-10581,2025-12-01,MRC,733.12,733.12,733.12,MPLS,intrastate,intrastate,IL,0.0,12,True,C-0218
+L011236,unknown_circuit,34.91,Circuit CKT-90007 is billed but not in the service inventory,V04,CKT-90007,2025-08-01,MRC,34.91,34.91,,,,intrastate,,,12,True,C-0219
+L011237,unknown_circuit,34.91,Circuit CKT-90007 is billed but not in the service inventory,V04,CKT-90007,2025-09-01,MRC,34.91,34.91,,,,intrastate,,,12,True,C-0219
+L011238,unknown_circuit,34.91,Circuit CKT-90007 is billed but not in the service inventory,V04,CKT-90007,2025-10-01,MRC,34.91,34.91,,,,intrastate,,,12,True,C-0219
+L011239,unknown_circuit,34.91,Circuit CKT-90007 is billed but not in the service inventory,V04,CKT-90007,2025-11-01,MRC,34.91,34.91,,,,intrastate,,,12,True,C-0219
+L011240,unknown_circuit,34.91,Circuit CKT-90007 is billed but not in the service inventory,V04,CKT-90007,2025-12-01,MRC,34.91,34.91,,,,intrastate,,,12,True,C-0219
+L011241,unknown_circuit,405.95,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-02-01,MRC,405.95,405.95,,,,intrastate,,,12,True,C-0220
+L011242,unknown_circuit,405.95,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-03-01,MRC,405.95,405.95,,,,intrastate,,,12,True,C-0220
+L011243,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-04-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011244,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-05-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011245,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-06-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011246,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-07-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011247,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-08-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011248,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-09-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011249,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-10-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011250,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-11-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011251,unknown_circuit,385.65,Circuit CKT-90008 is billed but not in the service inventory,V04,CKT-90008,2025-12-01,MRC,385.65,385.65,,,,intrastate,,,12,True,C-0220
+L011262,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-04-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011263,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-05-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011264,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-06-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011265,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-07-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011266,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-08-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011267,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-09-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011268,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-10-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011269,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-11-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221
+L011270,unknown_circuit,733.12,Circuit CKT-90010 is billed but not in the service inventory,V04,CKT-90010,2025-12-01,MRC,733.12,733.12,,,,intrastate,,,12,True,C-0221

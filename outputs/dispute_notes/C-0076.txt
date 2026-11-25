@@ -1,0 +1,15 @@
+To: Northgate Telecom Billing Disputes
+Subject: Dispute C-0076 - circuit CKT-90013 - billed, not in inventory
+
+We are disputing 6 invoice line(s) on circuit CKT-90013 for the periods 2025-07 to 2025-12, totalling $2,458.02.
+Invoice lines: L011292, L011293, L011294, L011295, L011296, L011297.
+
+What we found:
+Circuit CKT-90013 appears on your invoices but is not in our service inventory.
+
+Basis:
+- Sec. 2.4 (inventory): Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 6 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $2,458.02 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.
+Earlier periods ($409.67) fall outside the 6-month dispute window and are not included.

@@ -1,0 +1,14 @@
+To: Harborline Carrier Billing Disputes
+Subject: Dispute C-0160 - circuit CKT-10395 - duplicate charge
+
+We are disputing 1 invoice line(s) on circuit CKT-10395 for the period 2025-11, totalling $816.59.
+Invoice lines: L011343.
+
+What we found:
+The same charge was billed more than once for the same circuit and period.
+
+Basis:
+- Sec. 7.1 (duplicate billing): A charge may appear on one invoice only. Duplicate charges are credited on request.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 12 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $816.59 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.

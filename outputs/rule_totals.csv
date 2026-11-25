@@ -1,0 +1,8 @@
+rule,n_lines,total_est_overcharge
+duplicate,48,21949.77
+jurisdiction_misrate,190,13914.03
+post_disconnect,199,85754.49
+rate_mismatch,243,5158.88
+spike,42,16273.02
+surcharge_misrate,204,2384.99
+unknown_circuit,123,43420.43

@@ -1,0 +1,33 @@
+vendor_id,category,clause_ref,text
+V01,rates,Sec. 4.1,Northgate Telecom will bill each service at the rate in the rate schedule effective for the invoice period. Amended rates apply from their stated effective date.
+V01,jurisdiction,Sec. 4.3,Services whose two ends terminate in the same state are billed at the intrastate rate. Services that terminate in different states are billed at the interstate rate.
+V01,disconnect,Sec. 6.2,Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+V01,duplicate_billing,Sec. 7.1,A charge may appear on one invoice only. Duplicate charges are credited on request.
+V01,inventory,Sec. 2.4,Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+V01,regulatory_surcharge,Sec. 5.2,"Regulatory surcharges are billed as a percentage of the monthly recurring charge at the rate in the filed tariff for the circuit's originating state and service, effective for the invoice period. Services the tariff lists as exempt carry no surcharge."
+V01,surcharge,Sec. 5.5,Charges not listed in the rate schedule require written notice to the customer before they are billed.
+V01,dispute_procedure,Sec. 9.1,"The customer may dispute an invoiced charge within 6 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question."
+V02,rates,Sec. 4.1,Pinecrest Networks will bill each service at the rate in the rate schedule effective for the invoice period. Amended rates apply from their stated effective date.
+V02,jurisdiction,Sec. 4.3,Services whose two ends terminate in the same state are billed at the intrastate rate. Services that terminate in different states are billed at the interstate rate.
+V02,disconnect,Sec. 6.2,Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+V02,duplicate_billing,Sec. 7.1,A charge may appear on one invoice only. Duplicate charges are credited on request.
+V02,inventory,Sec. 2.4,Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+V02,regulatory_surcharge,Sec. 5.2,"Regulatory surcharges are billed as a percentage of the monthly recurring charge at the rate in the filed tariff for the circuit's originating state and service, effective for the invoice period. Services the tariff lists as exempt carry no surcharge."
+V02,surcharge,Sec. 5.5,Charges not listed in the rate schedule require written notice to the customer before they are billed.
+V02,dispute_procedure,Sec. 9.1,"The customer may dispute an invoiced charge within 9 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question."
+V03,rates,Sec. 4.1,Harborline Carrier will bill each service at the rate in the rate schedule effective for the invoice period. Amended rates apply from their stated effective date.
+V03,jurisdiction,Sec. 4.3,Services whose two ends terminate in the same state are billed at the intrastate rate. Services that terminate in different states are billed at the interstate rate.
+V03,disconnect,Sec. 6.2,Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+V03,duplicate_billing,Sec. 7.1,A charge may appear on one invoice only. Duplicate charges are credited on request.
+V03,inventory,Sec. 2.4,Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+V03,regulatory_surcharge,Sec. 5.2,"Regulatory surcharges are billed as a percentage of the monthly recurring charge at the rate in the filed tariff for the circuit's originating state and service, effective for the invoice period. Services the tariff lists as exempt carry no surcharge."
+V03,surcharge,Sec. 5.5,Charges not listed in the rate schedule require written notice to the customer before they are billed.
+V03,dispute_procedure,Sec. 9.1,"The customer may dispute an invoiced charge within 12 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question."
+V04,rates,Sec. 4.1,Sable Communications will bill each service at the rate in the rate schedule effective for the invoice period. Amended rates apply from their stated effective date.
+V04,jurisdiction,Sec. 4.3,Services whose two ends terminate in the same state are billed at the intrastate rate. Services that terminate in different states are billed at the interstate rate.
+V04,disconnect,Sec. 6.2,Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+V04,duplicate_billing,Sec. 7.1,A charge may appear on one invoice only. Duplicate charges are credited on request.
+V04,inventory,Sec. 2.4,Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+V04,regulatory_surcharge,Sec. 5.2,"Regulatory surcharges are billed as a percentage of the monthly recurring charge at the rate in the filed tariff for the circuit's originating state and service, effective for the invoice period. Services the tariff lists as exempt carry no surcharge."
+V04,surcharge,Sec. 5.5,Charges not listed in the rate schedule require written notice to the customer before they are billed.
+V04,dispute_procedure,Sec. 9.1,"The customer may dispute an invoiced charge within 12 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question."

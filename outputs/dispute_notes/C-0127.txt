@@ -1,0 +1,15 @@
+To: Pinecrest Networks Billing Disputes
+Subject: Dispute C-0127 - circuit CKT-90011 - billed, not in inventory
+
+We are disputing 9 invoice line(s) on circuit CKT-90011 for the periods 2025-04 to 2025-12, totalling $2,686.53.
+Invoice lines: L011272, L011273, L011274, L011275, L011276, L011277, L011278, L011279 and 1 more.
+
+What we found:
+Circuit CKT-90011 appears on your invoices but is not in our service inventory.
+
+Basis:
+- Sec. 2.4 (inventory): Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 9 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $2,686.53 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.
+Earlier periods ($292.65) fall outside the 9-month dispute window and are not included.

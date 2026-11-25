@@ -1,0 +1,14 @@
+To: Harborline Carrier Billing Disputes
+Subject: Dispute C-0168 - circuit CKT-10458 - billed after disconnect
+
+We are disputing 10 invoice line(s) on circuit CKT-10458 for the periods 2025-03 to 2025-12, totalling $8,165.90.
+Invoice lines: L011076, L011077, L011078, L011079, L011080, L011081, L011082, L011083 and 2 more.
+
+What we found:
+A disconnect order for this circuit took effect on 2025-02-11. Charges continued after that month.
+
+Basis:
+- Sec. 6.2 (disconnect): Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 12 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $8,165.90 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.

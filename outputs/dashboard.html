@@ -1,0 +1,232 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Telecom invoice audit</title>
+<script>(function(){try{var t=localStorage.getItem('billaudit-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t)}}catch(e){}})();</script><style>
+:root{--bg:#f7f7f5;--card:#ffffff;--ink:#1f2937;--mute:#6b7280;--line:#e5e7eb;--hover:#f3f4f6;--a:#0f766e;--b:#94a3b8;--c:#cbd5e1;--warn:#b45309;--bad:#b91c1c;--good:#15803d}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1418;--card:#171d23;--ink:#e5e7eb;--mute:#9ca3af;--line:#2a323a;--hover:#1e262d;--a:#2dd4bf;--b:#64748b;--c:#475569;--warn:#f59e0b;--bad:#f87171;--good:#4ade80}}
+:root[data-theme="dark"]{--bg:#0f1418;--card:#171d23;--ink:#e5e7eb;--mute:#9ca3af;--line:#2a323a;--hover:#1e262d;--a:#2dd4bf;--b:#64748b;--c:#475569;--warn:#f59e0b;--bad:#f87171;--good:#4ade80}
+:root[data-theme="light"]{--bg:#f7f7f5;--card:#ffffff;--ink:#1f2937;--mute:#6b7280;--line:#e5e7eb;--hover:#f3f4f6;--a:#0f766e;--b:#94a3b8;--c:#cbd5e1;--warn:#b45309;--bad:#b91c1c;--good:#15803d}
+*{box-sizing:border-box}
+html{scroll-padding-top:68px}
+body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 "Segoe UI",Arial,sans-serif}
+main{max-width:1120px;margin:0 auto;padding:24px 20px 56px}
+h1{font-size:22px;margin:0 0 4px}h2{font-size:15px;margin:0 0 12px}
+section{margin-bottom:26px}
+.sub{color:var(--mute);margin:0 0 18px}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--a);outline-offset:2px}
+.skip{position:absolute;left:12px;top:-48px;background:var(--card);border:1px solid var(--line);padding:8px 12px;border-radius:6px;z-index:30}
+.skip:focus{top:8px}
+#progress{position:fixed;left:0;top:0;height:3px;width:0;background:var(--a);z-index:40}
+header.top{position:sticky;top:0;z-index:20;background:var(--card);border-bottom:1px solid var(--line)}
+.bar{max-width:1120px;margin:0 auto;padding:10px 20px;display:flex;align-items:center;gap:14px}
+.brand{font-weight:600;text-decoration:none;margin-right:auto}
+nav{display:flex;gap:2px}
+nav a{text-decoration:none;color:var(--mute);padding:5px 10px;border-radius:6px}
+nav a:hover{background:var(--hover);color:var(--ink)}
+button{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:5px 10px;cursor:pointer}
+button:hover{background:var(--hover)}
+#menuBtn{display:none}
+.grid{display:grid;gap:14px}.kpis{grid-template-columns:repeat(6,1fr)}
+.two{grid-template-columns:repeat(auto-fit,minmax(420px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:16px;animation:rise .3s ease both;transition:border-color .15s}
+.card:hover{border-color:var(--b)}
+@keyframes rise{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
+.kpi .v{font-size:20px;font-weight:600;margin-top:2px}.kpi .l{color:var(--mute);font-size:12px}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:6px 8px;text-align:left;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mute);font-weight:600;font-size:12px}td.n,th.n{text-align:right}
+tbody tr:hover{background:var(--hover)}
+tr[hidden]{display:none}
+.wrap{overflow-x:auto}
+.tall{max-height:460px;overflow:auto}
+.pill{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;border:1px solid var(--line)}
+.credited,.accepted,.partial{color:var(--good)}.rejected{color:var(--bad)}.filed{color:var(--warn)}
+svg text{fill:var(--ink);font-family:"Segoe UI",Arial,sans-serif}svg .m{fill:var(--mute)}
+svg rect:hover{opacity:.85}
+.key{display:flex;gap:14px;font-size:12px;color:var(--mute);margin-bottom:6px;flex-wrap:wrap}
+.key i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:5px;vertical-align:-1px}
+.note{color:var(--mute);font-size:12px;margin-top:10px}
+.filters{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px}
+input[type=search],select{font:inherit;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:6px 10px}
+input[type=search]{min-width:240px}
+.count{color:var(--mute);font-size:12px}
+.copy{padding:0 6px;font-size:11px;margin-left:6px;color:var(--mute)}
+details{border-bottom:1px solid var(--line);padding:8px 0}
+details:last-child{border-bottom:0}
+summary{cursor:pointer;font-weight:600}summary:hover{color:var(--a)}
+details p{margin:8px 0 2px;color:var(--mute)}
+#toTop{position:fixed;right:18px;bottom:18px;z-index:20;box-shadow:0 1px 4px rgba(0,0,0,.2)}
+#toTop[hidden]{display:none}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+footer{color:var(--mute);font-size:12px;margin-top:8px}
+@media (max-width:900px){.kpis{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:760px){
+  .two{grid-template-columns:1fr}
+  #menuBtn{display:inline-block}
+  nav{display:none;position:absolute;left:0;right:0;top:100%;background:var(--card);border-bottom:1px solid var(--line);flex-direction:column;padding:6px 20px 10px}
+  .nav-open nav{display:flex}
+  .bar{position:relative}
+}
+@media (max-width:520px){.kpis{grid-template-columns:repeat(2,1fr)}input[type=search]{min-width:0;width:100%}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+@media print{
+  :root,:root[data-theme="dark"],:root[data-theme="light"]{--bg:#f7f7f5;--card:#ffffff;--ink:#1f2937;--mute:#6b7280;--line:#e5e7eb;--hover:#f3f4f6;--a:#0f766e;--b:#94a3b8;--c:#cbd5e1;--warn:#b45309;--bad:#b91c1c;--good:#15803d}
+  @page{margin:14mm}
+  header.top,#progress,#toTop,.filters,.copy,.skip,#menuBtn{display:none!important}
+  body{background:#fff}
+  main{padding:0}
+  .card{break-inside:avoid;animation:none}
+  .tall,.wrap{max-height:none;overflow:visible}
+  section{break-inside:auto}
+  a{text-decoration:none}
+}
+</style></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<div id="progress" aria-hidden="true"></div>
+<header class="top"><div class="bar">
+<a class="brand" href="#summary">Telecom invoice audit</a>
+<button id="menuBtn" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+<nav id="nav" aria-label="Sections"><a href="#summary">Summary</a><a href="#charts">Charts</a><a href="#claims">Claims</a><a href="#rules">Rules</a><a href="#quality">Quality gate</a><a href="#notes">Notes</a></nav>
+<button id="themeBtn" type="button" aria-label="Change colour theme">Theme: system</button>
+</div></header>
+<main id="main">
+<section id="summary">
+<h1>Telecom invoice audit</h1>
+<p class="sub">2025 invoices, audit run 2026-01-31, tracker cut 2026-03-17. 11,427 invoice lines audited. Simulated data.</p>
+<div class="grid kpis"><div class="card kpi"><div class="l">Flagged value</div><div class="v">$188,856</div></div><div class="card kpi"><div class="l">Inside dispute windows</div><div class="v">$173,784</div></div><div class="card kpi"><div class="l">Time-barred</div><div class="v">$15,072</div></div><div class="card kpi"><div class="l">Filed (45 claims)</div><div class="v">$128,928</div></div><div class="card kpi"><div class="l">Expected recovery</div><div class="v">$90,312</div></div><div class="card kpi"><div class="l">Credits received</div><div class="v">$33,732</div></div></div>
+</section>
+<section id="charts">
+<div class="grid two" style="margin-bottom:14px">
+<div class="card"><h2>Value by rule</h2><div class="key"><span><i style="background:var(--c)"></i>Flagged</span><span><i style="background:var(--b)"></i>Inside window</span><span><i style="background:var(--a)"></i>Credited</span></div><svg viewBox="0 0 520 216" width="100%" role="img"><text x="0" y="19" font-size="12">Billed, not in inventory</text><rect x="150" y="7" width="151.9" height="16" rx="2" style="fill:var(--c)"><title>Billed, not in inventory: Flagged $43,420</title></rect><rect x="150" y="7" width="146.4" height="16" rx="2" style="fill:var(--b)"><title>Billed, not in inventory: Inside window $41,850</title></rect><rect x="150" y="7" width="28.4" height="16" rx="2" style="fill:var(--a)"><title>Billed, not in inventory: Credited $8,131</title></rect><text class="m" x="307.9" y="20" font-size="11">$43.4k</text><text x="0" y="49" font-size="12">Billed after disconnect</text><rect x="150" y="37" width="300.0" height="16" rx="2" style="fill:var(--c)"><title>Billed after disconnect: Flagged $85,754</title></rect><rect x="150" y="37" width="283.7" height="16" rx="2" style="fill:var(--b)"><title>Billed after disconnect: Inside window $81,108</title></rect><rect x="150" y="37" width="78.7" height="16" rx="2" style="fill:var(--a)"><title>Billed after disconnect: Credited $22,510</title></rect><text class="m" x="456.0" y="50" font-size="11">$85.8k</text><text x="0" y="79" font-size="12">Duplicate charge</text><rect x="150" y="67" width="76.8" height="16" rx="2" style="fill:var(--c)"><title>Duplicate charge: Flagged $21,950</title></rect><rect x="150" y="67" width="56.3" height="16" rx="2" style="fill:var(--b)"><title>Duplicate charge: Inside window $16,094</title></rect><rect x="150" y="67" width="10.8" height="16" rx="2" style="fill:var(--a)"><title>Duplicate charge: Credited $3,091</title></rect><text class="m" x="232.8" y="80" font-size="11">$21.9k</text><text x="0" y="109" font-size="12">Wrong jurisdiction rate</text><rect x="150" y="97" width="48.7" height="16" rx="2" style="fill:var(--c)"><title>Wrong jurisdiction rate: Flagged $13,914</title></rect><rect x="150" y="97" width="45.9" height="16" rx="2" style="fill:var(--b)"><title>Wrong jurisdiction rate: Inside window $13,112</title></rect><rect x="150" y="97" width="0.0" height="16" rx="2" style="fill:var(--a)"><title>Wrong jurisdiction rate: Credited $0</title></rect><text class="m" x="204.7" y="110" font-size="11">$13.9k</text><text x="0" y="139" font-size="12">Rate above contract</text><rect x="150" y="127" width="18.0" height="16" rx="2" style="fill:var(--c)"><title>Rate above contract: Flagged $5,159</title></rect><rect x="150" y="127" width="17.2" height="16" rx="2" style="fill:var(--b)"><title>Rate above contract: Inside window $4,925</title></rect><rect x="150" y="127" width="0.0" height="16" rx="2" style="fill:var(--a)"><title>Rate above contract: Credited $0</title></rect><text class="m" x="174.0" y="140" font-size="11">$5.2k</text><text x="0" y="169" font-size="12">Surcharge above tariff</text><rect x="150" y="157" width="8.3" height="16" rx="2" style="fill:var(--c)"><title>Surcharge above tariff: Flagged $2,385</title></rect><rect x="150" y="157" width="6.7" height="16" rx="2" style="fill:var(--b)"><title>Surcharge above tariff: Inside window $1,908</title></rect><rect x="150" y="157" width="0.0" height="16" rx="2" style="fill:var(--a)"><title>Surcharge above tariff: Credited $0</title></rect><text class="m" x="164.3" y="170" font-size="11">$2.4k</text><text x="0" y="199" font-size="12">Unexplained charge spike</text><rect x="150" y="187" width="56.9" height="16" rx="2" style="fill:var(--c)"><title>Unexplained charge spike: Flagged $16,273</title></rect><rect x="150" y="187" width="51.7" height="16" rx="2" style="fill:var(--b)"><title>Unexplained charge spike: Inside window $14,787</title></rect><rect x="150" y="187" width="0.0" height="16" rx="2" style="fill:var(--a)"><title>Unexplained charge spike: Credited $0</title></rect><text class="m" x="212.9" y="200" font-size="11">$16.3k</text></svg></div>
+<div class="card"><h2>Filed claims by vendor</h2><div class="key"><span><i style="background:var(--c)"></i>Filed</span><span><i style="background:var(--b)"></i>Accepted</span><span><i style="background:var(--a)"></i>Credited</span></div><svg viewBox="0 0 520 126" width="100%" role="img"><text x="0" y="19" font-size="12">Northgate Telecom</text><rect x="150" y="7" width="168.0" height="16" rx="2" style="fill:var(--c)"><title>Northgate Telecom: Filed $24,916</title></rect><rect x="150" y="7" width="89.2" height="16" rx="2" style="fill:var(--b)"><title>Northgate Telecom: Accepted $13,233</title></rect><rect x="150" y="7" width="72.6" height="16" rx="2" style="fill:var(--a)"><title>Northgate Telecom: Credited $10,775</title></rect><text class="m" x="324.0" y="20" font-size="11">$24.9k</text><text x="0" y="49" font-size="12">Pinecrest Networks</text><rect x="150" y="37" width="191.9" height="16" rx="2" style="fill:var(--c)"><title>Pinecrest Networks: Filed $28,468</title></rect><rect x="150" y="37" width="63.7" height="16" rx="2" style="fill:var(--b)"><title>Pinecrest Networks: Accepted $9,454</title></rect><rect x="150" y="37" width="43.4" height="16" rx="2" style="fill:var(--a)"><title>Pinecrest Networks: Credited $6,438</title></rect><text class="m" x="347.9" y="50" font-size="11">$28.5k</text><text x="0" y="79" font-size="12">Harborline Carrier</text><rect x="150" y="67" width="300.0" height="16" rx="2" style="fill:var(--c)"><title>Harborline Carrier: Filed $44,504</title></rect><rect x="150" y="67" width="82.2" height="16" rx="2" style="fill:var(--b)"><title>Harborline Carrier: Accepted $12,196</title></rect><rect x="150" y="67" width="35.5" height="16" rx="2" style="fill:var(--a)"><title>Harborline Carrier: Credited $5,271</title></rect><text class="m" x="456.0" y="80" font-size="11">$44.5k</text><text x="0" y="109" font-size="12">Sable Communications</text><rect x="150" y="97" width="209.2" height="16" rx="2" style="fill:var(--c)"><title>Sable Communications: Filed $31,041</title></rect><rect x="150" y="97" width="85.6" height="16" rx="2" style="fill:var(--b)"><title>Sable Communications: Accepted $12,705</title></rect><rect x="150" y="97" width="75.8" height="16" rx="2" style="fill:var(--a)"><title>Sable Communications: Credited $11,248</title></rect><text class="m" x="365.2" y="110" font-size="11">$31.0k</text></svg></div>
+</div>
+<div class="grid two">
+<div class="card"><h2>Claim pipeline</h2><svg viewBox="0 0 520 156" width="100%" role="img"><text x="0" y="19" font-size="12">Claims raised</text><rect x="150" y="7" width="300.0" height="16" rx="2" style="fill:var(--a)"><title>Claims raised: 221</title></rect><text class="m" x="456.0" y="20" font-size="11">221</text><text x="0" y="49" font-size="12">Eligible to file</text><rect x="150" y="37" width="183.3" height="16" rx="2" style="fill:var(--a)"><title>Eligible to file: 135</title></rect><text class="m" x="339.3" y="50" font-size="11">135</text><text x="0" y="79" font-size="12">Filed</text><rect x="150" y="67" width="61.1" height="16" rx="2" style="fill:var(--a)"><title>Filed: 45</title></rect><text class="m" x="217.1" y="80" font-size="11">45</text><text x="0" y="109" font-size="12">Vendor answered</text><rect x="150" y="97" width="47.5" height="16" rx="2" style="fill:var(--a)"><title>Vendor answered: 35</title></rect><text class="m" x="203.5" y="110" font-size="11">35</text><text x="0" y="139" font-size="12">Credit applied</text><rect x="150" y="127" width="24.4" height="16" rx="2" style="fill:var(--a)"><title>Credit applied: 18</title></rect><text class="m" x="180.4" y="140" font-size="11">18</text></svg></div>
+<div class="card"><h2>Filed, no answer yet: age in days</h2><svg viewBox="0 0 520 190" width="100%" role="img"><rect x="77.5" y="162.0" width="70" height="0.0" rx="2" style="fill:var(--a)"><title>0-30 days: 0 claims</title></rect><text x="112.5" y="156.0" font-size="12" text-anchor="middle">0</text><text class="m" x="112.5" y="182" font-size="12" text-anchor="middle">0-30 days</text><rect x="225.0" y="24.0" width="70" height="138.0" rx="2" style="fill:var(--a)"><title>31-60 days: 10 claims</title></rect><text x="260.0" y="18.0" font-size="12" text-anchor="middle">10</text><text class="m" x="260.0" y="182" font-size="12" text-anchor="middle">31-60 days</text><rect x="372.5" y="162.0" width="70" height="0.0" rx="2" style="fill:var(--a)"><title>61+ days: 0 claims</title></rect><text x="407.5" y="156.0" font-size="12" text-anchor="middle">0</text><text class="m" x="407.5" y="182" font-size="12" text-anchor="middle">61+ days</text></svg><p class="note">Counted from the filing date to the tracker cut.</p></div>
+</div>
+</section>
+<section id="claims">
+<div class="card"><h2>Filed claims, highest expected recovery first</h2>
+<div class="filters">
+<input id="q" type="search" placeholder="Filter by claim, vendor, circuit or rule" aria-label="Filter filed claims">
+<select id="st" aria-label="Filter by status"><option value="">All statuses</option><option value="credited">Credited</option><option value="accepted">Accepted</option><option value="partial">Partial</option><option value="rejected">Rejected</option><option value="filed">Filed</option></select>
+<span id="count" class="count" aria-live="polite"></span>
+</div>
+<div class="wrap tall"><table><thead><tr><th>Claim</th><th>Vendor</th><th>Circuit</th><th>Rule</th><th class="n">Claimable</th><th class="n">Expected</th><th>Status</th></tr></thead><tbody id="claimRows"><tr data-status="filed" data-search="c-0168 harborline carrier ckt-10458 billed after disconnect"><td>C-0168<button type="button" class="copy" data-copy="C-0168" aria-label="Copy claim id C-0168">Copy</button></td><td>Harborline Carrier</td><td>CKT-10458</td><td>Billed after disconnect</td><td class="n">$8,166</td><td class="n">$6,111</td><td><span class="pill filed">filed</span></td></tr><tr data-status="credited" data-search="c-0218 sable communications ckt-10581 billed after disconnect"><td>C-0218<button type="button" class="copy" data-copy="C-0218" aria-label="Copy claim id C-0218">Copy</button></td><td>Sable Communications</td><td>CKT-10581</td><td>Billed after disconnect</td><td class="n">$6,598</td><td class="n">$4,938</td><td><span class="pill credited">credited</span></td></tr><tr data-status="filed" data-search="c-0159 harborline carrier ckt-10370 billed after disconnect"><td>C-0159<button type="button" class="copy" data-copy="C-0159" aria-label="Copy claim id C-0159">Copy</button></td><td>Harborline Carrier</td><td>CKT-10370</td><td>Billed after disconnect</td><td class="n">$5,716</td><td class="n">$4,278</td><td><span class="pill filed">filed</span></td></tr><tr data-status="rejected" data-search="c-0170 harborline carrier ckt-10500 billed after disconnect"><td>C-0170<button type="button" class="copy" data-copy="C-0170" aria-label="Copy claim id C-0170">Copy</button></td><td>Harborline Carrier</td><td>CKT-10500</td><td>Billed after disconnect</td><td class="n">$5,404</td><td class="n">$4,045</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="credited" data-search="c-0221 sable communications ckt-90010 billed, not in inventory"><td>C-0221<button type="button" class="copy" data-copy="C-0221" aria-label="Copy claim id C-0221">Copy</button></td><td>Sable Communications</td><td>CKT-90010</td><td>Billed, not in inventory</td><td class="n">$6,598</td><td class="n">$4,022</td><td><span class="pill credited">credited</span></td></tr><tr data-status="partial" data-search="c-0134 harborline carrier ckt-10035 billed after disconnect"><td>C-0134<button type="button" class="copy" data-copy="C-0134" aria-label="Copy claim id C-0134">Copy</button></td><td>Harborline Carrier</td><td>CKT-10035</td><td>Billed after disconnect</td><td class="n">$5,102</td><td class="n">$3,818</td><td><span class="pill partial">partial</span></td></tr><tr data-status="filed" data-search="c-0122 pinecrest networks ckt-10553 billed after disconnect"><td>C-0122<button type="button" class="copy" data-copy="C-0122" aria-label="Copy claim id C-0122">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10553</td><td>Billed after disconnect</td><td class="n">$4,480</td><td class="n">$3,353</td><td><span class="pill filed">filed</span></td></tr><tr data-status="rejected" data-search="c-0206 sable communications ckt-10371 billed after disconnect"><td>C-0206<button type="button" class="copy" data-copy="C-0206" aria-label="Copy claim id C-0206">Copy</button></td><td>Sable Communications</td><td>CKT-10371</td><td>Billed after disconnect</td><td class="n">$3,666</td><td class="n">$2,743</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="rejected" data-search="c-0128 pinecrest networks ckt-90012 billed, not in inventory"><td>C-0128<button type="button" class="copy" data-copy="C-0128" aria-label="Copy claim id C-0128">Copy</button></td><td>Pinecrest Networks</td><td>CKT-90012</td><td>Billed, not in inventory</td><td class="n">$4,480</td><td class="n">$2,731</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="credited" data-search="c-0181 harborline carrier ckt-90005 billed, not in inventory"><td>C-0181<button type="button" class="copy" data-copy="C-0181" aria-label="Copy claim id C-0181">Copy</button></td><td>Harborline Carrier</td><td>CKT-90005</td><td>Billed, not in inventory</td><td class="n">$4,473</td><td class="n">$2,726</td><td><span class="pill credited">credited</span></td></tr><tr data-status="filed" data-search="c-0035 northgate telecom ckt-10284 billed after disconnect"><td>C-0035<button type="button" class="copy" data-copy="C-0035" aria-label="Copy claim id C-0035">Copy</button></td><td>Northgate Telecom</td><td>CKT-10284</td><td>Billed after disconnect</td><td class="n">$3,589</td><td class="n">$2,686</td><td><span class="pill filed">filed</span></td></tr><tr data-status="credited" data-search="c-0124 pinecrest networks ckt-10577 billed after disconnect"><td>C-0124<button type="button" class="copy" data-copy="C-0124" aria-label="Copy claim id C-0124">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10577</td><td>Billed after disconnect</td><td class="n">$3,504</td><td class="n">$2,622</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0220 sable communications ckt-90008 billed, not in inventory"><td>C-0220<button type="button" class="copy" data-copy="C-0220" aria-label="Copy claim id C-0220">Copy</button></td><td>Sable Communications</td><td>CKT-90008</td><td>Billed, not in inventory</td><td class="n">$4,283</td><td class="n">$2,610</td><td><span class="pill credited">credited</span></td></tr><tr data-status="partial" data-search="c-0205 sable communications ckt-10357 billed after disconnect"><td>C-0205<button type="button" class="copy" data-copy="C-0205" aria-label="Copy claim id C-0205">Copy</button></td><td>Sable Communications</td><td>CKT-10357</td><td>Billed after disconnect</td><td class="n">$3,471</td><td class="n">$2,598</td><td><span class="pill partial">partial</span></td></tr><tr data-status="accepted" data-search="c-0089 pinecrest networks ckt-10199 billed after disconnect"><td>C-0089<button type="button" class="copy" data-copy="C-0089" aria-label="Copy claim id C-0089">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10199</td><td>Billed after disconnect</td><td class="n">$3,016</td><td class="n">$2,257</td><td><span class="pill accepted">accepted</span></td></tr><tr data-status="credited" data-search="c-0190 sable communications ckt-10114 billed after disconnect"><td>C-0190<button type="button" class="copy" data-copy="C-0190" aria-label="Copy claim id C-0190">Copy</button></td><td>Sable Communications</td><td>CKT-10114</td><td>Billed after disconnect</td><td class="n">$2,932</td><td class="n">$2,195</td><td><span class="pill credited">credited</span></td></tr><tr data-status="accepted" data-search="c-0180 harborline carrier ckt-90004 billed, not in inventory"><td>C-0180<button type="button" class="copy" data-copy="C-0180" aria-label="Copy claim id C-0180">Copy</button></td><td>Harborline Carrier</td><td>CKT-90004</td><td>Billed, not in inventory</td><td class="n">$3,578</td><td class="n">$2,181</td><td><span class="pill accepted">accepted</span></td></tr><tr data-status="rejected" data-search="c-0126 pinecrest networks ckt-90002 billed, not in inventory"><td>C-0126<button type="button" class="copy" data-copy="C-0126" aria-label="Copy claim id C-0126">Copy</button></td><td>Pinecrest Networks</td><td>CKT-90002</td><td>Billed, not in inventory</td><td class="n">$3,488</td><td class="n">$2,126</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="rejected" data-search="c-0129 pinecrest networks ckt-90014 billed, not in inventory"><td>C-0129<button type="button" class="copy" data-copy="C-0129" aria-label="Copy claim id C-0129">Copy</button></td><td>Pinecrest Networks</td><td>CKT-90014</td><td>Billed, not in inventory</td><td class="n">$3,488</td><td class="n">$2,126</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="credited" data-search="c-0037 northgate telecom ckt-10311 billed after disconnect"><td>C-0037<button type="button" class="copy" data-copy="C-0037" aria-label="Copy claim id C-0037">Copy</button></td><td>Northgate Telecom</td><td>CKT-10311</td><td>Billed after disconnect</td><td class="n">$2,535</td><td class="n">$1,897</td><td><span class="pill credited">credited</span></td></tr><tr data-status="rejected" data-search="c-0056 northgate telecom ckt-10461 billed after disconnect"><td>C-0056<button type="button" class="copy" data-copy="C-0056" aria-label="Copy claim id C-0056">Copy</button></td><td>Northgate Telecom</td><td>CKT-10461</td><td>Billed after disconnect</td><td class="n">$2,458</td><td class="n">$1,840</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="accepted" data-search="c-0069 northgate telecom ckt-10537 billed after disconnect"><td>C-0069<button type="button" class="copy" data-copy="C-0069" aria-label="Copy claim id C-0069">Copy</button></td><td>Northgate Telecom</td><td>CKT-10537</td><td>Billed after disconnect</td><td class="n">$2,458</td><td class="n">$1,840</td><td><span class="pill accepted">accepted</span></td></tr><tr data-status="rejected" data-search="c-0048 northgate telecom ckt-10402 billed after disconnect"><td>C-0048<button type="button" class="copy" data-copy="C-0048" aria-label="Copy claim id C-0048">Copy</button></td><td>Northgate Telecom</td><td>CKT-10402</td><td>Billed after disconnect</td><td class="n">$2,232</td><td class="n">$1,670</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="rejected" data-search="c-0127 pinecrest networks ckt-90011 billed, not in inventory"><td>C-0127<button type="button" class="copy" data-copy="C-0127" aria-label="Copy claim id C-0127">Copy</button></td><td>Pinecrest Networks</td><td>CKT-90011</td><td>Billed, not in inventory</td><td class="n">$2,687</td><td class="n">$1,638</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="credited" data-search="c-0178 harborline carrier ckt-90001 billed, not in inventory"><td>C-0178<button type="button" class="copy" data-copy="C-0178" aria-label="Copy claim id C-0178">Copy</button></td><td>Harborline Carrier</td><td>CKT-90001</td><td>Billed, not in inventory</td><td class="n">$2,684</td><td class="n">$1,636</td><td><span class="pill credited">credited</span></td></tr><tr data-status="filed" data-search="c-0179 harborline carrier ckt-90003 billed, not in inventory"><td>C-0179<button type="button" class="copy" data-copy="C-0179" aria-label="Copy claim id C-0179">Copy</button></td><td>Harborline Carrier</td><td>CKT-90003</td><td>Billed, not in inventory</td><td class="n">$2,644</td><td class="n">$1,612</td><td><span class="pill filed">filed</span></td></tr><tr data-status="rejected" data-search="c-0203 sable communications ckt-10316 billed after disconnect"><td>C-0203<button type="button" class="copy" data-copy="C-0203" aria-label="Copy claim id C-0203">Copy</button></td><td>Sable Communications</td><td>CKT-10316</td><td>Billed after disconnect</td><td class="n">$2,027</td><td class="n">$1,517</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="filed" data-search="c-0076 northgate telecom ckt-90013 billed, not in inventory"><td>C-0076<button type="button" class="copy" data-copy="C-0076" aria-label="Copy claim id C-0076">Copy</button></td><td>Northgate Telecom</td><td>CKT-90013</td><td>Billed, not in inventory</td><td class="n">$2,458</td><td class="n">$1,498</td><td><span class="pill filed">filed</span></td></tr><tr data-status="credited" data-search="c-0012 northgate telecom ckt-10066 billed after disconnect"><td>C-0012<button type="button" class="copy" data-copy="C-0012" aria-label="Copy claim id C-0012">Copy</button></td><td>Northgate Telecom</td><td>CKT-10066</td><td>Billed after disconnect</td><td class="n">$1,892</td><td class="n">$1,416</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0016 northgate telecom ckt-10110 billed after disconnect"><td>C-0016<button type="button" class="copy" data-copy="C-0016" aria-label="Copy claim id C-0016">Copy</button></td><td>Northgate Telecom</td><td>CKT-10110</td><td>Billed after disconnect</td><td class="n">$1,892</td><td class="n">$1,416</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0059 northgate telecom ckt-10475 billed after disconnect"><td>C-0059<button type="button" class="copy" data-copy="C-0059" aria-label="Copy claim id C-0059">Copy</button></td><td>Northgate Telecom</td><td>CKT-10475</td><td>Billed after disconnect</td><td class="n">$1,892</td><td class="n">$1,416</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0150 harborline carrier ckt-10286 billed after disconnect"><td>C-0150<button type="button" class="copy" data-copy="C-0150" aria-label="Copy claim id C-0150">Copy</button></td><td>Harborline Carrier</td><td>CKT-10286</td><td>Billed after disconnect</td><td class="n">$1,621</td><td class="n">$1,213</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0040 northgate telecom ckt-10344 billed after disconnect"><td>C-0040<button type="button" class="copy" data-copy="C-0040" aria-label="Copy claim id C-0040">Copy</button></td><td>Northgate Telecom</td><td>CKT-10344</td><td>Billed after disconnect</td><td class="n">$1,576</td><td class="n">$1,180</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0101 pinecrest networks ckt-10343 billed after disconnect"><td>C-0101<button type="button" class="copy" data-copy="C-0101" aria-label="Copy claim id C-0101">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10343</td><td>Billed after disconnect</td><td class="n">$1,566</td><td class="n">$1,172</td><td><span class="pill credited">credited</span></td></tr><tr data-status="filed" data-search="c-0139 harborline carrier ckt-10085 billed after disconnect"><td>C-0139<button type="button" class="copy" data-copy="C-0139" aria-label="Copy claim id C-0139">Copy</button></td><td>Harborline Carrier</td><td>CKT-10085</td><td>Billed after disconnect</td><td class="n">$1,170</td><td class="n">$876</td><td><span class="pill filed">filed</span></td></tr><tr data-status="credited" data-search="c-0053 northgate telecom ckt-10425 duplicate charge"><td>C-0053<button type="button" class="copy" data-copy="C-0053" aria-label="Copy claim id C-0053">Copy</button></td><td>Northgate Telecom</td><td>CKT-10425</td><td>Duplicate charge</td><td class="n">$989</td><td class="n">$797</td><td><span class="pill credited">credited</span></td></tr><tr data-status="credited" data-search="c-0094 pinecrest networks ckt-10238 duplicate charge"><td>C-0094<button type="button" class="copy" data-copy="C-0094" aria-label="Copy claim id C-0094">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10238</td><td>Duplicate charge</td><td class="n">$892</td><td class="n">$719</td><td><span class="pill credited">credited</span></td></tr><tr data-status="rejected" data-search="c-0061 northgate telecom ckt-10480 billed after disconnect"><td>C-0061<button type="button" class="copy" data-copy="C-0061" aria-label="Copy claim id C-0061">Copy</button></td><td>Northgate Telecom</td><td>CKT-10480</td><td>Billed after disconnect</td><td class="n">$946</td><td class="n">$708</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="credited" data-search="c-0108 pinecrest networks ckt-10385 duplicate charge"><td>C-0108<button type="button" class="copy" data-copy="C-0108" aria-label="Copy claim id C-0108">Copy</button></td><td>Pinecrest Networks</td><td>CKT-10385</td><td>Duplicate charge</td><td class="n">$866</td><td class="n">$698</td><td><span class="pill credited">credited</span></td></tr><tr data-status="partial" data-search="c-0160 harborline carrier ckt-10395 duplicate charge"><td>C-0160<button type="button" class="copy" data-copy="C-0160" aria-label="Copy claim id C-0160">Copy</button></td><td>Harborline Carrier</td><td>CKT-10395</td><td>Duplicate charge</td><td class="n">$817</td><td class="n">$658</td><td><span class="pill partial">partial</span></td></tr><tr data-status="credited" data-search="c-0192 sable communications ckt-10144 duplicate charge"><td>C-0192<button type="button" class="copy" data-copy="C-0192" aria-label="Copy claim id C-0192">Copy</button></td><td>Sable Communications</td><td>CKT-10144</td><td>Duplicate charge</td><td class="n">$733</td><td class="n">$591</td><td><span class="pill credited">credited</span></td></tr><tr data-status="rejected" data-search="c-0202 sable communications ckt-10313 duplicate charge"><td>C-0202<button type="button" class="copy" data-copy="C-0202" aria-label="Copy claim id C-0202">Copy</button></td><td>Sable Communications</td><td>CKT-10313</td><td>Duplicate charge</td><td class="n">$733</td><td class="n">$591</td><td><span class="pill rejected">rejected</span></td></tr><tr data-status="filed" data-search="c-0136 harborline carrier ckt-10068 unexplained charge spike"><td>C-0136<button type="button" class="copy" data-copy="C-0136" aria-label="Copy claim id C-0136">Copy</button></td><td>Harborline Carrier</td><td>CKT-10068</td><td>Unexplained charge spike</td><td class="n">$1,854</td><td class="n">$522</td><td><span class="pill filed">filed</span></td></tr><tr data-status="filed" data-search="c-0133 harborline carrier ckt-10033 duplicate charge"><td>C-0133<button type="button" class="copy" data-copy="C-0133" aria-label="Copy claim id C-0133">Copy</button></td><td>Harborline Carrier</td><td>CKT-10033</td><td>Duplicate charge</td><td class="n">$638</td><td class="n">$514</td><td><span class="pill filed">filed</span></td></tr><tr data-status="filed" data-search="c-0165 harborline carrier ckt-10437 duplicate charge"><td>C-0165<button type="button" class="copy" data-copy="C-0165" aria-label="Copy claim id C-0165">Copy</button></td><td>Harborline Carrier</td><td>CKT-10437</td><td>Duplicate charge</td><td class="n">$638</td><td class="n">$514</td><td><span class="pill filed">filed</span></td></tr></tbody></table></div>
+<p id="empty" class="note" hidden>No filed claims match.</p>
+</div>
+</section>
+<section id="rules">
+<div class="grid two">
+<div class="card"><h2>Rules against the answer key</h2><div class="wrap"><table><thead><tr><th>Rule</th><th class="n">Injected</th><th class="n">Flagged</th><th class="n">Precision</th><th class="n">Recall</th></tr></thead><tbody><tr><td>Billed, not in inventory</td><td class='n'>123</td><td class='n'>123</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Billed after disconnect</td><td class='n'>199</td><td class='n'>199</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Duplicate charge</td><td class='n'>48</td><td class='n'>48</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Wrong jurisdiction rate</td><td class='n'>190</td><td class='n'>190</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Rate above contract</td><td class='n'>243</td><td class='n'>243</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Surcharge above tariff</td><td class='n'>204</td><td class='n'>204</td><td class='n'>100%</td><td class='n'>100%</td></tr><tr><td>Unexplained charge spike</td><td class='n'>30</td><td class='n'>42</td><td class='n'>71%</td><td class='n'>100%</td></tr></tbody></table></div><p class="note">The spike rule also flags legitimate usage overages on voice lines, which is why its precision is below 100%.</p></div>
+<div class="card"><h2>Predicted vs actual recovery</h2><div class="wrap"><table><thead><tr><th>Rule</th><th class="n">Answered</th><th class="n">Predicted</th><th class="n">Actual</th></tr></thead><tbody><tr><td>Duplicate charge</td><td class='n'>6</td><td class='n'>81%</td><td class='n'>69%</td></tr><tr><td>Billed after disconnect</td><td class='n'>20</td><td class='n'>75%</td><td class='n'>62%</td></tr><tr><td>Billed, not in inventory</td><td class='n'>9</td><td class='n'>61%</td><td class='n'>32%</td></tr></tbody></table></div><p class="note">Predicted comes from last year's disputes. Actual is this cycle's answered claims; small counts move a lot.</p></div>
+</div>
+</section>
+<section id="quality">
+<div class="card"><h2>Invoice files held back by the quality gate</h2><div class="wrap"><table><thead><tr><th>File</th><th>Reason</th></tr></thead><tbody><tr><td>invoice_V01_2025-10_reissue.csv</td><td>40 of 40 rows failed checks</td></tr><tr><td>invoice_V03_2025-09_reissue.csv</td><td>missing columns: amount</td></tr></tbody></table></div></div>
+</section>
+<section id="notes">
+<div class="card"><h2>Notes</h2><details><summary>What does flagged value mean?</summary><p>The estimated overcharge on every invoice line that tripped an audit rule. A line is counted once, under the highest-priority rule that caught it.</p></details><details><summary>What is time-barred?</summary><p>Invoice periods older than the vendor&#x27;s dispute window as of the audit date (6, 9, 12 and 12 months for the four vendors). They are shown separately and left out of what can be filed.</p></details><details><summary>How is expected recovery calculated?</summary><p>Claimable value multiplied by the rule&#x27;s recovery rate in last year&#x27;s dispute history. The history is simulated, and rules with few past claims are pulled toward 50%.</p></details><details><summary>Why is the spike rule&#x27;s precision below 100%?</summary><p>It compares a charge with the circuit&#x27;s own history, so it also flags legitimate usage overages on voice lines. The other six rules matched the answer key exactly.</p></details><details><summary>What is real and what is simulated?</summary><p>Everything. Vendors, rates, circuits, contracts, the LERG-style and NECA-style tables, the injected errors and the vendor responses after filing are all generated from a seed.</p></details></div>
+</section>
+<footer>Last updated <time datetime="2026-11-25T13:57+05:30">25 Nov 2026, 13:57</time>. Data as of 2026-01-31.</footer>
+</main>
+<button id="toTop" type="button" hidden aria-label="Back to top">Top</button>
+<div id="live" class="sr" role="status" aria-live="polite"></div>
+<script>
+(function () {
+  var root = document.documentElement, KEY = 'billaudit-theme';
+  var themeBtn = document.getElementById('themeBtn');
+  function stored() { try { return localStorage.getItem(KEY) || 'system'; } catch (e) { return 'system'; } }
+  function apply(t) {
+    if (t === 'system') { root.removeAttribute('data-theme'); } else { root.setAttribute('data-theme', t); }
+    themeBtn.textContent = 'Theme: ' + t;
+  }
+  var theme = stored();
+  apply(theme);
+  themeBtn.addEventListener('click', function () {
+    theme = theme === 'system' ? 'light' : (theme === 'light' ? 'dark' : 'system');
+    apply(theme);
+    try { localStorage.setItem(KEY, theme); } catch (e) {}
+  });
+
+  var menuBtn = document.getElementById('menuBtn'), nav = document.getElementById('nav');
+  menuBtn.addEventListener('click', function () {
+    var open = document.body.classList.toggle('nav-open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+  });
+  nav.addEventListener('click', function (e) {
+    if (e.target.tagName === 'A') {
+      document.body.classList.remove('nav-open');
+      menuBtn.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  var bar = document.getElementById('progress'), toTop = document.getElementById('toTop');
+  function onScroll() {
+    var h = document.documentElement, max = h.scrollHeight - h.clientHeight;
+    bar.style.width = (max > 0 ? Math.min(100, h.scrollTop / max * 100) : 0) + '%';
+    toTop.hidden = h.scrollTop < 600;
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+  onScroll();
+  toTop.addEventListener('click', function () {
+    var calm = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    window.scrollTo({ top: 0, behavior: calm ? 'auto' : 'smooth' });
+  });
+
+  var q = document.getElementById('q'), st = document.getElementById('st');
+  var rows = [].slice.call(document.querySelectorAll('#claimRows tr'));
+  var count = document.getElementById('count'), empty = document.getElementById('empty');
+  function filter() {
+    var s = q.value.trim().toLowerCase(), t = st.value, n = 0;
+    rows.forEach(function (r) {
+      var ok = (!s || r.getAttribute('data-search').indexOf(s) > -1) && (!t || r.getAttribute('data-status') === t);
+      r.hidden = !ok;
+      if (ok) { n += 1; }
+    });
+    count.textContent = 'Showing ' + n + ' of ' + rows.length + ' filed claims';
+    empty.hidden = n > 0;
+  }
+  q.addEventListener('input', filter);
+  st.addEventListener('change', filter);
+  filter();
+
+  var live = document.getElementById('live');
+  function copyText(text) {
+    if (navigator.clipboard && navigator.clipboard.writeText) {
+      return navigator.clipboard.writeText(text);
+    }
+    return new Promise(function (resolve, reject) {
+      var ta = document.createElement('textarea');
+      ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      var ok = false;
+      try { ok = document.execCommand('copy'); } catch (e) {}
+      document.body.removeChild(ta);
+      if (ok) { resolve(); } else { reject(new Error('copy failed')); }
+    });
+  }
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest ? e.target.closest('.copy') : null;
+    if (!b) { return; }
+    var text = b.getAttribute('data-copy');
+    copyText(text).then(function () {
+      var old = b.textContent;
+      b.textContent = 'Copied';
+      live.textContent = text + ' copied';
+      setTimeout(function () { b.textContent = old; }, 1400);
+    }, function () { live.textContent = 'Copy failed'; });
+  });
+
+  var opened = [];
+  window.addEventListener('beforeprint', function () {
+    opened = [].slice.call(document.querySelectorAll('details')).filter(function (d) { return !d.open; });
+    opened.forEach(function (d) { d.open = true; });
+  });
+  window.addEventListener('afterprint', function () {
+    opened.forEach(function (d) { d.open = false; });
+    opened = [];
+  });
+})();
+</script>
+</body></html>

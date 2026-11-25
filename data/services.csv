@@ -1,0 +1,6 @@
+service,list_rate
+DS1,310.0
+ETH100,520.0
+PRI,410.0
+VOICE,38.0
+MPLS,780.0

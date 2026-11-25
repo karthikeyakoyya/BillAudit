@@ -1,0 +1,7 @@
+{
+  "name": "billaudit-dashboard-tests",
+  "private": true,
+  "description": "Behaviour checks for outputs/dashboard.html (optional, needs Node 18+)",
+  "scripts": { "test": "node dashboard_behaviour.js ../../outputs/dashboard.html" },
+  "devDependencies": { "jsdom": "^24.0.0" }
+}

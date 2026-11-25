@@ -1,0 +1,14 @@
+To: Harborline Carrier Billing Disputes
+Subject: Dispute C-0178 - circuit CKT-90001 - billed, not in inventory
+
+We are disputing 6 invoice line(s) on circuit CKT-90001 for the periods 2025-07 to 2025-12, totalling $2,683.74.
+Invoice lines: L011190, L011191, L011192, L011193, L011194, L011195.
+
+What we found:
+Circuit CKT-90001 appears on your invoices but is not in our service inventory.
+
+Basis:
+- Sec. 2.4 (inventory): Only circuits listed in the service inventory attached to the agreement may be billed to the customer account.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 12 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $2,683.74 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.

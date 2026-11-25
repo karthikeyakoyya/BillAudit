@@ -1,0 +1,30 @@
+{
+  "unknown_circuit": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "post_disconnect": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "duplicate": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "jurisdiction_misrate": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "rate_mismatch": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "surcharge_misrate": {
+    "precision": 1.0,
+    "recall": 1.0
+  },
+  "spike": {
+    "precision": 0.7143,
+    "recall": 1.0
+  }
+}

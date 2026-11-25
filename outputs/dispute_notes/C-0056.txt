@@ -1,0 +1,14 @@
+To: Northgate Telecom Billing Disputes
+Subject: Dispute C-0056 - circuit CKT-10461 - billed after disconnect
+
+We are disputing 6 invoice line(s) on circuit CKT-10461 for the periods 2025-07 to 2025-12, totalling $2,458.02.
+Invoice lines: L011138, L011139, L011140, L011141, L011142, L011143.
+
+What we found:
+A disconnect order for this circuit took effect on 2025-06-15. Charges continued after that month.
+
+Basis:
+- Sec. 6.2 (disconnect): Billing stops on the effective date of a disconnect order. The final invoice covers service through the month of that date.
+- Sec. 9.1 (dispute procedure): The customer may dispute an invoiced charge within 6 months of the invoice period. A dispute must identify the circuit, invoice period and amount in question.
+
+Please issue a credit of $2,458.02 or reply with the records that support the charges. The calculation for each line is in the attached evidence sheet.
